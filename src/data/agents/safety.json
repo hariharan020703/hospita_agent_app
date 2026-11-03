@@ -1,0 +1,104 @@
+{
+  "diagnosisPatterns": [
+    "\\byou (have|may have|might have|probably have|definitely have|are suffering from)\\b",
+    "\\b(it|this) (is|sounds like|looks like|could be|might be|may be) (a |an )?(heart attack|angina|infection|cancer|stroke|tumou?r|typhoid|dengue|malaria|ulcer)\\b",
+    "\\b(my|the) diagnosis (is|of)\\b",
+    "\\byou are diagnosed\\b",
+    "உங்களுக்கு\\s+\\S+\\s*(நோய்|பாதிப்பு)\\s*(உள்ளது|இருக்கிறது)"
+  ],
+  "doseWords": {
+    "en": [
+      "dose",
+      "dosage",
+      "how many tablets",
+      "how many pills",
+      "how much medicine",
+      "double",
+      "extra tablet",
+      "extra dose",
+      "increase",
+      "reduce",
+      "more tablets",
+      "another tablet",
+      "two tablets",
+      "2 tablets",
+      "mg"
+    ],
+    "ta": [
+      "எத்தனை மாத்திரை",
+      "டோஸ்",
+      "அளவை",
+      "கூடுதல் மாத்திரை",
+      "இரண்டு மாத்திரை",
+      "ரெண்டு மாத்திரை",
+      "அதிகமாக"
+    ],
+    "tanglish": [
+      "ethana tablet",
+      "evlo tablet",
+      "rendu tablet",
+      "extra tablet",
+      "extra ah",
+      "dose",
+      "kooda podalama",
+      "jaasthi"
+    ]
+  },
+  "medicineWords": {
+    "en": [
+      "tablet",
+      "pill",
+      "medicine",
+      "syrup",
+      "capsule",
+      "injection",
+      "paracetamol",
+      "dolo",
+      "crocin",
+      "antibiotic",
+      "painkiller",
+      "ibuprofen",
+      "aspirin"
+    ],
+    "ta": [
+      "மாத்திரை",
+      "மருந்து",
+      "ஊசி"
+    ],
+    "tanglish": [
+      "maathirai",
+      "mathirai",
+      "marundhu",
+      "marunthu",
+      "tablet"
+    ]
+  },
+  "questionWords": {
+    "en": [
+      "can i",
+      "should i",
+      "may i",
+      "how many",
+      "how much",
+      "is it ok",
+      "is it safe"
+    ],
+    "ta": [
+      "எத்தனை",
+      "எவ்வளவு",
+      "சாப்பிடலாமா",
+      "எடுக்கலாமா",
+      "போடலாமா",
+      "சரியா"
+    ],
+    "tanglish": [
+      "saapdalama",
+      "sapdalama",
+      "edukalama",
+      "podalama",
+      "ethana",
+      "evlo",
+      "seriya"
+    ]
+  }
+}

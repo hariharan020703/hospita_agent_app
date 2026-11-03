@@ -1,0 +1,43 @@
+{
+  "checkIns": [
+    {"departmentId": "cardiology", "day": 3, "question": {"en": "Hello {{name}}, this is day 3 of your treatment. Is your chest discomfort better?", "ta": "வணக்கம் {{name}}, உங்கள் சிகிச்சையின் 3-ஆம் நாள் இது. நெஞ்சு அசௌகரியம் குறைந்திருக்கிறதா?"}},
+    {"departmentId": "general", "day": 3, "question": {"en": "Hello {{name}}, this is day 3 of your treatment. Is your fever better?", "ta": "வணக்கம் {{name}}, உங்கள் சிகிச்சையின் 3-ஆம் நாள் இது. காய்ச்சல் குறைந்திருக்கிறதா?"}},
+    {"departmentId": "orthopaedics", "day": 3, "question": {"en": "Hello {{name}}, this is day 3 of your treatment. Is the pain better?", "ta": "வணக்கம் {{name}}, உங்கள் சிகிச்சையின் 3-ஆம் நாள் இது. வலி குறைந்திருக்கிறதா?"}},
+    {"departmentId": "*", "day": 3, "question": {"en": "Hello {{name}}, this is day 3 of your treatment. Are you feeling better?", "ta": "வணக்கம் {{name}}, உங்கள் சிகிச்சையின் 3-ஆம் நாள் இது. இப்போது உடல்நிலை பரவாயில்லையா?"}}
+  ],
+  "warningSigns": [
+    {
+      "departmentId": "cardiology",
+      "terms": {
+        "en": ["breathless", "short of breath", "breathlessness", "sweating", "fainted", "faint", "swelling", "pain is worse", "more pain", "palpitation"],
+        "ta": ["மூச்சு", "வியர்", "மயக்க", "வலி அதிகம்", "வீக்கம்", "படபடப்பு"],
+        "tanglish": ["moochu", "vervai", "mayakkam", "vali jaasthi", "padapadappu"]
+      },
+      "label": {"en": "breathlessness or worse chest symptoms", "ta": "மூச்சு வாங்குதல் அல்லது நெஞ்சு அறிகுறிகள் அதிகரிப்பு"}
+    },
+    {
+      "departmentId": "*",
+      "terms": {
+        "en": ["worse", "getting worse", "fever again", "vomiting", "bleeding", "rash", "fainted", "can't eat", "breathless", "short of breath"],
+        "ta": ["அதிகமா", "மோசம்", "வாந்தி", "ரத்தம்", "மயக்க", "மூச்சு வாங்கு"],
+        "tanglish": ["jaasthi aagiduchu", "vaanthi", "mayakkam"]
+      },
+      "label": {"en": "symptoms getting worse", "ta": "அறிகுறிகள் அதிகரிப்பு"}
+    }
+  ],
+  "better": {
+    "en": ["better", "good", "fine", "improved", "okay", "much better"],
+    "ta": ["பரவாயில்லை", "நன்றாக", "குறைந்து", "குறைஞ்சிருக்கு", "சரியா", "நல்லா"],
+    "tanglish": ["paravala", "paravaillai", "nalla iruku", "better", "seri aayiduchu", "kammi aayiduchu"]
+  },
+  "slotWords": {
+    "morning": {"en": ["morning", "breakfast"], "ta": ["காலை"], "tanglish": ["kaalai", "kaalaila"]},
+    "afternoon": {"en": ["afternoon", "lunch"], "ta": ["மதியம்", "மதிய"], "tanglish": ["madhiyam", "mathiyam"]},
+    "night": {"en": ["night", "bedtime", "dinner", "evening"], "ta": ["இரவு", "ராத்திரி", "நைட்"], "tanglish": ["raathiri", "iravu", "nite"]}
+  },
+  "topics": {
+    "diet": ["salt", "oil", "oily", "food", "fluids", "water", "drink", "coffee", "tea"],
+    "activity": ["walk", "exercise", "exercises", "rest", "squatting", "sleep", "hot pack"],
+    "missed_dose": ["miss", "skip"]
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "intents": [
+    {
+      "id": "human",
+      "phrases": {
+        "en": ["talk to a person", "speak to a person", "talk to someone", "speak to someone", "talk to a human", "real person", "receptionist", "front desk", "call me back", "please call me"],
+        "ta": ["மனிதரிடம்", "ஆளிடம் பேச", "யாரிடமாவது பேச", "வரவேற்பாளர்", "என்னை அழைக்கவும்", "கூப்பிடுங்க"],
+        "tanglish": ["yaar kitta pesanum", "aal kitta pesanum", "reception la pesanum", "call pannunga"]
+      }
+    },
+    {
+      "id": "queue_status",
+      "phrases": {
+        "en": ["how long", "waiting time", "wait time", "my turn", "queue", "how many people", "how many patients", "when will i be called", "when is my turn", "token status", "now serving"],
+        "ta": ["எவ்வளவு நேரம்", "காத்திருக்க", "என் முறை", "என் டர்ன்", "வரிசை", "டோக்கன்"],
+        "tanglish": ["evlo neram", "evvalavu neram", "eppo en turn", "en turn", "kaathirukanum", "queue la", "token eppo"]
+      }
+    },
+    {
+      "id": "reschedule",
+      "phrases": {
+        "en": ["reschedule", "change my appointment", "change the time", "another time", "different time", "postpone", "move my appointment"],
+        "ta": ["நேரத்தை மாற்ற", "மாற்றி வை", "வேறு நேரம்", "வேற நேரம்"],
+        "tanglish": ["time maathanum", "time mathanum", "vera time", "maathi vaikanum", "reschedule pannanum"]
+      }
+    },
+    {
+      "id": "cancel",
+      "phrases": {
+        "en": ["cancel"],
+        "ta": ["ரத்து"],
+        "tanglish": ["cancel pannu", "cancel pannanum", "appointment venam"]
+      }
+    },
+    {
+      "id": "my_appointments",
+      "phrases": {
+        "en": ["my appointment", "my appointments", "when is my appointment", "my booking", "my bookings"],
+        "ta": ["என் முன்பதிவு", "என் அப்பாயின்ட்மென்ட்", "என்னுடைய முன்பதிவு"],
+        "tanglish": ["en appointment", "appointment eppo", "en booking"]
+      }
+    },
+    {
+      "id": "book",
+      "phrases": {
+        "en": ["book", "appointment", "see a doctor", "consult a doctor", "meet a doctor"],
+        "ta": ["முன்பதிவு", "மருத்துவரைப் பார்க்க", "டாக்டரைப் பார்க்க", "டாக்டரை பார்க்க"],
+        "tanglish": ["book pannanum", "book pannunga", "doctor paakanum", "doctor ah paakanum", "appointment venum"]
+      }
+    },
+    {
+      "id": "greeting",
+      "phrases": {
+        "en": ["hi", "hello", "hey", "good morning", "good afternoon", "good evening"],
+        "ta": ["வணக்கம்", "ஹலோ"],
+        "tanglish": ["vanakkam", "vanakam"]
+      }
+    },
+    {
+      "id": "thanks",
+      "phrases": {
+        "en": ["thanks", "thank you", "ok thanks"],
+        "ta": ["நன்றி"],
+        "tanglish": ["nandri", "romba nandri"]
+      }
+    }
+  ]
+}

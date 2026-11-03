@@ -1,0 +1,99 @@
+{
+  "samples": [
+    {
+      "id": "rs_rx_bp",
+      "title": {"en": "Old prescription (BP tablets)", "ta": "பழைய மருந்துச் சீட்டு (BP மாத்திரை)"},
+      "file": "prescription-bp.svg",
+      "match": ["prescription", "presc", "rx", "bp"],
+      "extraction": {
+        "kind": {"value": "prescription", "confidence": 96},
+        "date": {"value": "2025-11-18", "confidence": 91},
+        "doctor": {"value": "Dr. R. Ganesan, MD", "confidence": 88},
+        "hospital": {"value": "Sri Vinayaga Clinic, Peelamedu", "confidence": 84},
+        "medicines": [
+          {
+            "name": {"value": "Amlodipine", "confidence": 94},
+            "dose": {"value": "5 mg", "confidence": 92},
+            "frequency": {"value": "Once a day, morning (1-0-0), after food", "confidence": 87}
+          },
+          {
+            "name": {"value": "Pantoprazole", "confidence": 63},
+            "dose": {"value": "40 mg", "confidence": 58},
+            "frequency": {"value": "Once a day, morning (1-0-0), before food", "confidence": 71}
+          }
+        ],
+        "tests": [],
+        "diagnoses": [{"value": "Hypertension", "confidence": 83}]
+      }
+    },
+    {
+      "id": "rs_lab_lipid",
+      "title": {"en": "Lab report (cholesterol and sugar)", "ta": "ஆய்வக அறிக்கை (கொழுப்பு, சர்க்கரை)"},
+      "file": "lab-lipid.svg",
+      "match": ["lab", "lipid", "report", "blood", "cholesterol", "test"],
+      "extraction": {
+        "kind": {"value": "lab_report", "confidence": 97},
+        "date": {"value": "2026-09-22", "confidence": 95},
+        "doctor": {"value": "Ref. by Dr. R. Ganesan", "confidence": 81},
+        "hospital": {"value": "Kovai Diagnostics, Gandhipuram", "confidence": 93},
+        "medicines": [],
+        "tests": [
+          {"name": {"value": "Total cholesterol", "confidence": 96}, "value": {"value": "238", "confidence": 94}, "unit": {"value": "mg/dL", "confidence": 97}, "range": {"value": "< 200", "confidence": 92}},
+          {"name": {"value": "LDL cholesterol", "confidence": 93}, "value": {"value": "162", "confidence": 90}, "unit": {"value": "mg/dL", "confidence": 96}, "range": {"value": "< 130", "confidence": 90}},
+          {"name": {"value": "HDL cholesterol", "confidence": 93}, "value": {"value": "38", "confidence": 89}, "unit": {"value": "mg/dL", "confidence": 96}, "range": {"value": "> 40", "confidence": 88}},
+          {"name": {"value": "Triglycerides", "confidence": 91}, "value": {"value": "190", "confidence": 66}, "unit": {"value": "mg/dL", "confidence": 95}, "range": {"value": "< 150", "confidence": 90}},
+          {"name": {"value": "Fasting blood sugar", "confidence": 92}, "value": {"value": "104", "confidence": 91}, "unit": {"value": "mg/dL", "confidence": 96}, "range": {"value": "70 - 100", "confidence": 93}},
+          {"name": {"value": "Serum creatinine", "confidence": 90}, "value": {"value": "0.9", "confidence": 88}, "unit": {"value": "mg/dL", "confidence": 94}, "range": {"value": "0.6 - 1.1", "confidence": 91}}
+        ],
+        "diagnoses": []
+      }
+    },
+    {
+      "id": "rs_discharge",
+      "title": {"en": "Discharge summary (2024)", "ta": "டிஸ்சார்ஜ் சுருக்கம் (2024)"},
+      "file": "discharge-summary.svg",
+      "match": ["discharge", "summary", "admission"],
+      "extraction": {
+        "kind": {"value": "discharge_summary", "confidence": 94},
+        "date": {"value": "2024-06-14", "confidence": 90},
+        "doctor": {"value": "Dr. S. Prabhu, MD", "confidence": 79},
+        "hospital": {"value": "Sri Ramana Hospital, Ramanathapuram", "confidence": 86},
+        "medicines": [
+          {"name": {"value": "Paracetamol", "confidence": 95}, "dose": {"value": "650 mg", "confidence": 93}, "frequency": {"value": "When needed for fever, up to 3 times a day", "confidence": 74}},
+          {"name": {"value": "Oral rehydration salts", "confidence": 88}, "dose": {"value": "1 sachet in 1 litre water", "confidence": 69}, "frequency": {"value": "Sip through the day", "confidence": 77}}
+        ],
+        "tests": [
+          {"name": {"value": "Platelet count", "confidence": 92}, "value": {"value": "1.4", "confidence": 84}, "unit": {"value": "lakh/µL", "confidence": 80}, "range": {"value": "1.5 - 4.5", "confidence": 88}},
+          {"name": {"value": "Haemoglobin", "confidence": 93}, "value": {"value": "12.1", "confidence": 90}, "unit": {"value": "g/dL", "confidence": 94}, "range": {"value": "12 - 15", "confidence": 91}}
+        ],
+        "diagnoses": [{"value": "Viral fever with dehydration", "confidence": 85}]
+      }
+    }
+  ],
+  "generic": [
+    {
+      "kind": {"value": "prescription", "confidence": 72},
+      "date": {"value": "2026-08-05", "confidence": 61},
+      "doctor": {"value": "Dr. (name not clear)", "confidence": 42},
+      "hospital": {"value": "Clinic name not clear", "confidence": 38},
+      "medicines": [
+        {"name": {"value": "Metformin", "confidence": 68}, "dose": {"value": "500 mg", "confidence": 64}, "frequency": {"value": "Twice a day (1-0-1), after food", "confidence": 59}},
+        {"name": {"value": "Vitamin B12", "confidence": 55}, "dose": {"value": "1500 mcg", "confidence": 49}, "frequency": {"value": "Once a day (0-1-0)", "confidence": 57}}
+      ],
+      "tests": [],
+      "diagnoses": []
+    },
+    {
+      "kind": {"value": "lab_report", "confidence": 74},
+      "date": {"value": "2026-07-19", "confidence": 66},
+      "doctor": {"value": "Not mentioned", "confidence": 40},
+      "hospital": {"value": "Lab name not clear", "confidence": 45},
+      "medicines": [],
+      "tests": [
+        {"name": {"value": "Haemoglobin", "confidence": 71}, "value": {"value": "11.2", "confidence": 62}, "unit": {"value": "g/dL", "confidence": 78}, "range": {"value": "12 - 15", "confidence": 70}},
+        {"name": {"value": "HbA1c", "confidence": 66}, "value": {"value": "6.4", "confidence": 58}, "unit": {"value": "%", "confidence": 80}, "range": {"value": "< 5.7", "confidence": 69}}
+      ],
+      "diagnoses": []
+    }
+  ]
+}

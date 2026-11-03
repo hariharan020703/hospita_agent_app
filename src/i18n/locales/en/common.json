@@ -1,0 +1,177 @@
+{
+  "appName": "MediFlow",
+  "disclaimer": "This assistant helps you find the right doctor. It does not give medical diagnosis.",
+  "actions": {
+    "save": "Save",
+    "saveChanges": "Save changes",
+    "cancel": "Cancel",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "continue": "Continue",
+    "confirm": "Confirm",
+    "edit": "Edit",
+    "delete": "Delete",
+    "add": "Add",
+    "retry": "Try again",
+    "search": "Search",
+    "clear": "Clear",
+    "clearFilters": "Clear filters",
+    "signOut": "Log out",
+    "exportCsv": "Export CSV",
+    "print": "Print",
+    "done": "Done",
+    "view": "View",
+    "apply": "Apply",
+    "reset": "Reset",
+    "skipToContent": "Skip to main content",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "dismiss": "Dismiss",
+    "goHome": "Go to home"
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "ta": "தமிழ்"
+  },
+  "theme": {
+    "label": "Theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "Same as device"
+  },
+  "states": {
+    "loading": "Loading…",
+    "empty": "Nothing here yet",
+    "noResults": "No results match your search or filters",
+    "errorTitle": "Something went wrong",
+    "errorBody": "We couldn't load this. Check your connection and try again.",
+    "saving": "Saving…"
+  },
+  "errors": {
+    "NETWORK": "Couldn't reach the server. Please try again.",
+    "NOT_FOUND": "We couldn't find that record.",
+    "SLOT_TAKEN": "That slot was just taken. Please choose another time.",
+    "NO_SLOTS": "No free slots are left today.",
+    "PATIENT_BUSY": "This patient already has an appointment at that time or with this doctor that day.",
+    "TOO_LATE": "It's too close to the appointment to change it. Please call the hospital.",
+    "INVALID_STATE": "This can't be done right now. Refresh and try again.",
+    "INVALID_OTP": "That code is not correct. Please check and try again.",
+    "VALIDATION": "Some details are not valid. Please check and try again.",
+    "CONFLICT": "This clashes with an existing record.",
+    "FORBIDDEN": "You don't have access to do this.",
+    "UNKNOWN": "Something went wrong. Please try again."
+  },
+  "pagination": {
+    "summary": "{{from}}–{{to}} of {{total}}",
+    "previous": "Previous page",
+    "next": "Next page",
+    "page": "Page {{page}} of {{pages}}",
+    "rowsPerPage": "Rows per page"
+  },
+  "table": {
+    "sortBy": "Sort by {{column}}",
+    "actions": "Actions"
+  },
+  "status": {
+    "booked": "Booked",
+    "checked_in": "Checked in",
+    "in_consultation": "In consultation",
+    "completed": "Completed",
+    "cancelled": "Cancelled",
+    "no_show": "No-show"
+  },
+  "doctorStatus": {
+    "available": "Available",
+    "on_break": "On break",
+    "running_late": "Running late",
+    "off": "Off today"
+  },
+  "gender": {
+    "female": "Female",
+    "male": "Male",
+    "other": "Other"
+  },
+  "relation": {
+    "self": "Self",
+    "spouse": "Spouse",
+    "parent": "Parent",
+    "child": "Child",
+    "sibling": "Brother or sister",
+    "other": "Other"
+  },
+  "weekdays": {
+    "mon": "Monday",
+    "tue": "Tuesday",
+    "wed": "Wednesday",
+    "thu": "Thursday",
+    "fri": "Friday",
+    "sat": "Saturday",
+    "sun": "Sunday"
+  },
+  "weekdaysShort": {
+    "mon": "Mon",
+    "tue": "Tue",
+    "wed": "Wed",
+    "thu": "Thu",
+    "fri": "Fri",
+    "sat": "Sat",
+    "sun": "Sun"
+  },
+  "dates": {
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "yesterday": "Yesterday"
+  },
+  "doctorName": "Dr. {{name}}",
+  "experience_one": "{{count}} year of experience",
+  "experience_other": "{{count}} years of experience",
+  "fee": "Consultation fee",
+  "room": "Room {{room}}",
+  "token": "Token",
+  "minutesShort": "{{count}} min",
+  "patientsAhead_one": "{{count}} patient ahead",
+  "patientsAhead_other": "{{count}} patients ahead",
+  "slots": {
+    "morning": "Morning",
+    "afternoon": "Afternoon",
+    "evening": "Evening",
+    "none": "No slots on this day",
+    "booked": "Booked",
+    "unavailable": "Unavailable",
+    "available": "Available",
+    "slotLabel": "{{time}}, {{status}}"
+  },
+  "datePicker": {
+    "choose": "Choose a date",
+    "previousMonth": "Previous month",
+    "nextMonth": "Next month"
+  },
+  "pages": {
+    "notFoundTitle": "Page not found",
+    "notFoundBody": "The page you were looking for doesn't exist or has moved.",
+    "unauthorizedTitle": "You don't have access to this page",
+    "unauthorizedBody": "Your account can't open this part of MediFlow. Sign in with a different account or go back.",
+    "crashTitle": "This screen stopped working",
+    "crashBody": "Something unexpected happened. Reload the page to continue. If it keeps happening, tell the hospital IT team.",
+    "reload": "Reload page",
+    "signInAgain": "Sign in with another account"
+  },
+  "a11y": {
+    "required": "required",
+    "mainNav": "Main navigation",
+    "breadcrumb": "Breadcrumb",
+    "notifications": "Notifications",
+    "userMenu": "Account menu",
+    "toasts": "Notifications"
+  },
+  "toast": {
+    "saved": "Changes saved"
+  },
+  "mockData": {
+    "reset": "Reset sample data",
+    "resetConfirm": "Restore all sample data? Bookings and changes made in this browser will be lost.",
+    "resetDone": "Sample data restored"
+  }
+}

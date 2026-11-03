@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="820" viewBox="0 0 600 820" role="img" aria-label="Sample lab report">
+  <defs>
+    <filter id="paper"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" result="n"/><feColorMatrix type="saturate" values="0"/><feBlend in="SourceGraphic" in2="n" mode="multiply"/></filter>
+  </defs>
+  <rect width="600" height="820" fill="#cfd3d6"/>
+  <g transform="rotate(0.8 300 410)">
+    <rect x="26" y="20" width="548" height="780" fill="#ffffff" filter="url(#paper)"/>
+    <rect x="26" y="20" width="548" height="74" fill="#0d5c63"/>
+    <text x="46" y="56" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#fff">KOVAI DIAGNOSTICS</text>
+    <text x="46" y="80" font-family="Arial, sans-serif" font-size="12" fill="#d8eff0">NABL accredited laboratory · 7, Cross Cut Road, Gandhipuram, Coimbatore</text>
+    <text x="46" y="124" font-family="Arial, sans-serif" font-size="13" fill="#222">Patient: LAKSHMI MURUGAN</text>
+    <text x="330" y="124" font-family="Arial, sans-serif" font-size="13" fill="#222">Age/Sex: 52 Y / F</text>
+    <text x="46" y="146" font-family="Arial, sans-serif" font-size="13" fill="#222">Ref. by: Dr. R. GANESAN</text>
+    <text x="330" y="146" font-family="Arial, sans-serif" font-size="13" fill="#222">Collected: 22-09-2026 07:40</text>
+    <text x="46" y="168" font-family="Arial, sans-serif" font-size="13" fill="#222">Sample: Serum (fasting 12 h)</text>
+    <text x="330" y="168" font-family="Arial, sans-serif" font-size="13" fill="#222">Lab no: KD/26/09/4471</text>
+    <line x1="46" y1="184" x2="554" y2="184" stroke="#0d5c63" stroke-width="1.5"/>
+    <text x="300" y="212" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0d5c63">LIPID PROFILE AND BIOCHEMISTRY</text>
+    <g font-family="Arial, sans-serif" font-size="13" fill="#222">
+      <rect x="46" y="228" width="508" height="28" fill="#eef5f5"/>
+      <text x="56" y="247" font-weight="bold">Test</text><text x="270" y="247" font-weight="bold">Result</text><text x="350" y="247" font-weight="bold">Unit</text><text x="430" y="247" font-weight="bold">Reference range</text>
+      <text x="56" y="285">Total cholesterol</text><text x="270" y="285" font-weight="bold">238 H</text><text x="350" y="285">mg/dL</text><text x="430" y="285">&lt; 200</text>
+      <text x="56" y="317">LDL cholesterol</text><text x="270" y="317" font-weight="bold">162 H</text><text x="350" y="317">mg/dL</text><text x="430" y="317">&lt; 130</text>
+      <text x="56" y="349">HDL cholesterol</text><text x="270" y="349" font-weight="bold">38 L</text><text x="350" y="349">mg/dL</text><text x="430" y="349">&gt; 40</text>
+      <text x="56" y="381">Triglycerides</text><text x="270" y="381" font-weight="bold" opacity="0.55">19<tspan opacity="0.4">0</tspan> H</text><text x="350" y="381">mg/dL</text><text x="430" y="381">&lt; 150</text>
+      <text x="56" y="413">Fasting blood sugar</text><text x="270" y="413" font-weight="bold">104 H</text><text x="350" y="413">mg/dL</text><text x="430" y="413">70 - 100</text>
+      <text x="56" y="445">Serum creatinine</text><text x="270" y="445">0.9</text><text x="350" y="445">mg/dL</text><text x="430" y="445">0.6 - 1.1</text>
+      <line x1="46" y1="460" x2="554" y2="460" stroke="#bbb"/>
+    </g>
+    <ellipse cx="290" cy="377" rx="34" ry="12" fill="#6d6a5a" opacity="0.15"/>
+    <text x="46" y="500" font-family="Arial, sans-serif" font-size="12" fill="#555">H = above reference range, L = below reference range.</text>
+    <text x="46" y="520" font-family="Arial, sans-serif" font-size="12" fill="#555">Results relate only to the sample tested. Please correlate clinically.</text>
+    <text x="46" y="700" font-family="'Segoe Script', cursive" font-size="20" fill="#1b2a6b">S. Revathi</text>
+    <text x="46" y="722" font-family="Arial, sans-serif" font-size="12" fill="#555">Dr. S. Revathi, MD (Biochemistry)</text>
+    <text x="554" y="722" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#555">Page 1 of 1 · *** End of report ***</text>
+  </g>
+</svg>

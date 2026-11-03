@@ -1,0 +1,326 @@
+{
+  "title": "Symptom assistant",
+  "subtitle": "Tell us what's wrong. We'll suggest the right department.",
+  "greeting": "Hello! I'm the MediFlow assistant. Tell me what's bothering you, in your own words. You can type or tap the microphone.",
+  "questions": {
+    "more": "Could you tell me a little more? Which part of the body is affected, and what do you feel?",
+    "duration": "How long have you had this?",
+    "severity": "On a scale of 1 to 10, how bad is it right now?",
+    "age": "How old is the patient?",
+    "conditions": "Do you have any long-term conditions, like diabetes or high blood pressure? You can say 'none'.",
+    "safety": {
+      "cardiology": "One safety question: is the pain spreading to your arm, jaw or back, or are you sweating or short of breath right now?",
+      "paediatrics": "One safety question: is the child very drowsy, having fits, struggling to breathe, or not drinking anything?",
+      "neurology": "One safety question: is there sudden weakness on one side, slurred speech, or the worst headache of your life?",
+      "obgyn": "One safety question: are you pregnant and having heavy bleeding or severe stomach pain right now?",
+      "default": "One safety question: do you have severe pain, trouble breathing, fainting, or heavy bleeding right now?"
+    }
+  },
+  "repeat": {
+    "severity": "Please give a number from 1 (mild) to 10 (the worst).",
+    "age": "Please tell me the age in years, for example 45.",
+    "safety": "Please answer yes or no, so I can make sure you're safe."
+  },
+  "quick": {
+    "yes": "Yes",
+    "no": "No",
+    "durationToday": "Since today",
+    "durationDays": "2-3 days",
+    "durationWeek": "About a week",
+    "durationLonger": "More than 2 weeks",
+    "severityMild": "Mild (3)",
+    "severityModerate": "Moderate (5)",
+    "severitySevere": "Severe (8)",
+    "conditionsNone": "None"
+  },
+  "reply": {
+    "recommendation": "Thank you. Based on what you told me, {{department}} is the right department for you.",
+    "emergency": "What you described needs urgent attention. Please don't wait for an appointment.",
+    "escalated": "I'd like a member of our team to help you with this."
+  },
+  "chat": {
+    "placeholder": "Type your message",
+    "send": "Send",
+    "mic": "Speak",
+    "micStop": "Stop listening",
+    "listening": "Listening… speak now",
+    "voiceUnsupported": "Voice input isn't available in this browser. Please type instead.",
+    "micDenied": "Microphone access was blocked. Please type instead.",
+    "voiceError": "We couldn't hear that. Please try again or type.",
+    "typing": "Assistant is typing",
+    "startOver": "Start over",
+    "you": "You",
+    "assistant": "MediFlow assistant",
+    "viaVoice": "by voice",
+    "conversation": "Conversation with the assistant"
+  },
+  "result": {
+    "title": "Recommended department",
+    "notDiagnosis": "This is a suggestion to help you see the right doctor. It is not a diagnosis. The doctor will examine you.",
+    "location": "{{wing}}, floor {{floor}}",
+    "urgency": "How soon",
+    "confidence": "How sure",
+    "because": "Because:"
+  },
+  "emergency": {
+    "title": "This needs urgent care",
+    "body": "What you described can be a sign of an emergency. Don't wait for an appointment. Call 108 or go to the hospital's Emergency department now.",
+    "call108": "Call 108 ambulance",
+    "callHospital": "Call hospital Emergency",
+    "where": "Where to go",
+    "open": "Open 24 hours, every day",
+    "stayWithSomeone": "If you can, keep someone with you and show them this screen.",
+    "reasonLabel": "Why we are showing this",
+    "safetyAnswer": "You answered yes to the safety question."
+  },
+  "escalated": {
+    "title": "Our team will help you",
+    "unclear_routing": "I couldn't work out the right department from what you described. Our front desk has your message and will help you choose.",
+    "asked_for_human": "Of course. Our front desk has your message and will contact you.",
+    "safety_unclear": "To be safe, our front desk will check your symptoms with you.",
+    "nextSteps": "If you're at the hospital, please go to the help desk at the main entrance. If you feel worse at any time, call 108.",
+    "callHospital": "Call the hospital"
+  },
+  "howItWorks": {
+    "title": "How it works",
+    "steps": {
+      "describe": "Tell us what is bothering you, by typing or speaking.",
+      "answer": "Answer a few short questions about how long and how bad it is.",
+      "book": "See the right department and book a doctor who suits you."
+    },
+    "alsoAsk": "You can also ask \"How long will I wait?\", or change or cancel an appointment."
+  },
+  "orchestrator": {
+    "greetingName": "Hello {{name}}! I'm the MediFlow assistant. Tell me what's bothering you, in your own words. I can also check your queue, and book or change appointments.",
+    "suggest": {
+      "wait": "How long will I wait?",
+      "appointments": "My appointments"
+    },
+    "literal": "{{text}}",
+    "ageFromProfile": "{{age}} years (me)",
+    "rephrased": "I can't put that safely in words. Please ask your doctor about it.",
+    "triagePaused": "The symptom assistant is switched off right now. Please choose a department below.",
+    "paused": "The assistant is switched off right now. Please choose a department below, or call the hospital.",
+    "lowConfidence": "I'm not fully sure about this one. You can still book, or our front desk can help you choose.",
+    "offerBooking": "Shall I find a doctor and book a time for you?",
+    "offerToken": "Tap \"Get a token\" to see a doctor today.",
+    "actions": {
+      "getToken": "Get a token",
+      "book": "Yes, book for me",
+      "chooseDoctor": "I'll choose the doctor",
+      "frontDesk": "Talk to the front desk",
+      "browseDoctors": "See all doctors",
+      "confirmBooking": "Confirm booking",
+      "otherTimes": "Other times",
+      "trackQueue": "Track the live queue",
+      "uploadRecords": "Upload old reports",
+      "viewAppointment": "View appointment",
+      "allAppointments": "All appointments",
+      "confirmCancel": "Yes, cancel it",
+      "keep": "No, keep it",
+      "confirmReschedule": "Yes, move it",
+      "carePlan": "Open my care plan"
+    },
+    "bookingBlocked": "I can't book an appointment after the warning signs you mentioned. Please call 108 or go to the Emergency department now.",
+    "bookNeedsSymptoms": "Tell me what's bothering you and I'll find the right department and doctor. Or you can browse all doctors.",
+    "noDoctors": "No {{department}} doctor has a free time in the next few days. Our front desk can help.",
+    "pickDoctor": "These {{department}} doctors have the earliest free times. Who would you like to see?",
+    "confirmBooking": "Shall I book this?",
+    "pickTime": "Here are the free times. Pick one.",
+    "noTimes": "There are no free times that day.",
+    "booked": "Done! Your appointment is booked and your token is {{token}}. You can track the live queue from here.",
+    "patientBusy": "You already have an appointment at that time. Please pick another time or check your appointments.",
+    "slotGone": "Sorry, that time was just taken.",
+    "rescheduled": "Done. Your appointment is now on {{date}} at {{time}}. Token {{token}}.",
+    "tooLateToChange": "It's too close to the appointment time to change it here. Please call the hospital.",
+    "cancelled": "Your appointment {{token}} is cancelled.",
+    "nothingToConfirm": "There's nothing waiting for a confirmation.",
+    "kioskQueue": "To see your place in the queue, go back and choose \"Scan booking QR\" to check in.",
+    "noAppointmentToday": "You have no appointment today.",
+    "nextAppointment": "Your next one is on {{date}} at {{time}} with Dr. {{doctor}}.",
+    "queueStatus": "Token {{token}}: {{count}} ahead of you. You should be seen around {{time}}.",
+    "leaveBy": "Leave home by {{time}} to be on time.",
+    "kioskAppointments": "Please use the MediFlow app or the help desk to see or change appointments.",
+    "noUpcoming": "You have no upcoming appointments.",
+    "upcoming_one": "You have 1 upcoming appointment.",
+    "upcoming_other": "You have {{count}} upcoming appointments.",
+    "noBooked": "I couldn't find a booked appointment to change.",
+    "rescheduleWhich": "Your appointment {{token}} is on {{date}} at {{time}}. Pick a new time:",
+    "confirmCancel": "Cancel this appointment?",
+    "medicineRefused": "I can't advise on medicines or doses. Please ask your doctor or pharmacist. If you have a care plan from your doctor, its companion answers from your prescription. If you feel very unwell, call 108.",
+    "greetingBack": "Hello! Tell me what's bothering you, or ask about your queue or appointments.",
+    "thanksBack": "You're welcome. Take care!",
+    "confirmReschedule": "Move your appointment to {{date}} at {{time}}?",
+    "notBooked": "OK, I haven't booked anything.",
+    "keptAppointment": "OK, your appointment stays as it is."
+  },
+  "trail": {
+    "title": "How this answer was made",
+    "safetyCheck": "Safety check",
+    "intent": "Understood: {{intent}}",
+    "safetyClear": "No warning signs",
+    "redFlag": "Warning sign: {{flag}}",
+    "bookingBlocked": "Booking blocked",
+    "escalated": "Passed to the front desk",
+    "result": "{{department}} · {{urgency}} · {{confidence}}% sure",
+    "departments": "Paused: offered the list of departments",
+    "doseRefused": "Medicine question: only a doctor answers this",
+    "noDiagnosis": "Reply checked: no diagnosis wording",
+    "rephrased": "Reply replaced: it had diagnosis wording",
+    "searchDoctors": "{{count}} {{department}} doctors with free times",
+    "getSlots": "{{count}} free times on {{date}}",
+    "bookAppointment": "Booked token {{token}} at {{time}}",
+    "rescheduleAppointment": "Moved to {{date}}, {{time}}",
+    "cancelAppointment": "Cancelled token {{token}}",
+    "getPatientProfile": "Read the profile and appointments",
+    "getQueueStatus": "{{count}} ahead, about {{time}}",
+    "sendNotification": "In-app notification sent",
+    "paused": "Agent paused by the admin",
+    "resumed": "Agent switched back on by the admin",
+    "summary": "Summary from the conversation and {{records}} documents",
+    "records": {
+      "read": "Read {{file}}",
+      "extracted": "{{medicines}} medicines, {{tests}} test values, {{low}} to check",
+      "saved": "Checked and saved by the patient"
+    },
+    "scribe": {
+      "listening": "Transcribed {{lines}} lines",
+      "drafted": "{{fields}} note fields and {{medicines}} medicines drafted",
+      "signed": "Signed by the doctor ({{edits}} edits)"
+    },
+    "care": {
+      "planCreated": "Care plan made: {{count}} medicines",
+      "used": "Answered from the care plan: {{part}}",
+      "askedDoctor": "Not in the care plan: sent to the doctor",
+      "checkIn": "Day {{day}} check-in sent",
+      "warning": "Warning sign: urgent alert to the doctor",
+      "better": "Patient reports feeling better",
+      "same": "No change reported: shared with the doctor",
+      "doctorReplied": "Doctor's reply delivered"
+    }
+  },
+  "intents": {
+    "symptoms": "symptoms",
+    "queue_status": "queue status",
+    "book": "booking",
+    "reschedule": "change an appointment",
+    "cancel": "cancel an appointment",
+    "my_appointments": "my appointments",
+    "human": "talk to a person",
+    "greeting": "greeting",
+    "thanks": "thanks",
+    "medicine_question": "medicine question",
+    "emergency": "warning signs",
+    "record_uploaded": "report uploaded",
+    "pre_visit_summary": "pre-visit summary",
+    "consultation_started": "consultation started",
+    "consultation_ended": "consultation ended",
+    "prescription_signed": "prescription signed",
+    "care_plan_ready": "care plan sent",
+    "care_question": "question about the care plan",
+    "check_in": "follow-up check-in",
+    "check_in_reply": "check-in reply",
+    "doctor_reply": "doctor's reply"
+  },
+  "agents": {
+    "orchestrator": "Orchestrator",
+    "triage": "Triage agent",
+    "records": "Medical records agent",
+    "scribe": "Consultation scribe",
+    "care": "Care companion"
+  },
+  "urgency": {
+    "routine": "Routine",
+    "soon": "See a doctor soon",
+    "emergency": "Emergency"
+  },
+  "reasons": {
+    "symptom": "{{label}}",
+    "age": "age {{age}}",
+    "condition": "{{label}}",
+    "followUp": "{{label}}",
+    "severity": "severity {{value}}/10",
+    "duration": "for {{duration}}"
+  },
+  "recordKinds": {
+    "prescription": "Prescription",
+    "lab_report": "Lab report",
+    "discharge_summary": "Discharge summary",
+    "other": "Other document"
+  },
+  "carePart": {
+    "medicine": "medicines",
+    "advice": "doctor's advice",
+    "test": "tests",
+    "followUp": "follow-up date"
+  },
+  "cards": {
+    "nextFree": "Next free: {{day}}, {{time}}",
+    "noTimes": "No free times",
+    "when": "When",
+    "room": "Room",
+    "booked": "Booked",
+    "token": "Token",
+    "roomValue": "Room {{room}}",
+    "ref": "Ref {{ref}}",
+    "ahead": "Ahead of you",
+    "expected": "Expected",
+    "checkedIn": "Checked in",
+    "leaveBy": "Leave by",
+    "emergency": "Emergency: please follow the instructions on screen."
+  },
+  "picker": {
+    "empty": "No departments are open for booking.",
+    "title": "Choose a department",
+    "body": "Pick the department for your problem to see its doctors and book.",
+    "browse": "Browse all doctors instead",
+    "pageTitle": "Find the right department",
+    "pageSubtitle": "The symptom assistant is not available right now."
+  },
+  "care": {
+    "welcome_one": "Dr. {{doctor}} has signed your prescription. This is your care plan with 1 medicine. Ask me anything about it, for example \"I missed my night tablet\".",
+    "welcome_other": "Dr. {{doctor}} has signed your prescription. This is your care plan with {{count}} medicines. Ask me anything about it, for example \"I missed my night tablet\".",
+    "quote": "“{{text}}”",
+    "medicineLine": "{{name}}: {{slots}}, {{food}}",
+    "durationLine": "{{name}}: {{days}} days, until {{date}}",
+    "slot": {
+      "morning": "morning",
+      "afternoon": "afternoon",
+      "night": "night"
+    },
+    "food": {
+      "before": "before food",
+      "after": "after food",
+      "any": "with or without food"
+    },
+    "answers": {
+      "missedDose": "For a missed dose, your doctor said:",
+      "yourMedicine": "The medicine you asked about:",
+      "foodIntro": "Here is what your prescription says about food:",
+      "timingIntro": "Your medicine times:",
+      "durationIntro": "How long to take each medicine:",
+      "followUp": "Your doctor wants to see you again on {{date}}.",
+      "testsIntro": "Tests your doctor asked for:",
+      "adviceIntro": "Your doctor's advice on this:"
+    },
+    "askedDoctor": "That isn't covered by your prescription or your doctor's advice, so I've sent your question to Dr. {{doctor}}. The reply will appear here.",
+    "refusedDose": "I can't change or add medicine doses, and please don't change anything on your own. I've asked Dr. {{doctor}} for you.",
+    "sideEffect": "Thank you for telling me. I've passed this to Dr. {{doctor}}. If it gets worse or you feel very unwell, call 108.",
+    "urgent": "This needs attention today. I've sent an urgent alert to Dr. {{doctor}}. Please come to the hospital today, and call 108 at once if it gets worse or you feel faint.",
+    "emergency": "What you described needs urgent care now. Call 108 or go to the Emergency department. I've alerted Dr. {{doctor}}.",
+    "checkInBetter": "Good to hear! Keep taking your medicines as prescribed.",
+    "checkInSame": "Thank you. I've shared this with Dr. {{doctor}}. Keep taking your medicines, and call 108 if you feel worse.",
+    "reasons": {
+      "notInPlan": "Not covered by the prescription or advice",
+      "doseChange": "Asks about changing a dose or another medicine",
+      "sideEffect": "Possible side effect or new symptom",
+      "warning": "Warning sign in a check-in reply: {{label}}",
+      "redFlag": "Emergency warning sign: {{label}}",
+      "checkInSame": "Day {{day}} check-in: not better yet"
+    },
+    "outcome": {
+      "better": "feeling better",
+      "same": "not better yet"
+    }
+  }
+}

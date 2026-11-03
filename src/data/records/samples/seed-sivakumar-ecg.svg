@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="820" viewBox="0 0 600 820" role="img" aria-label="12-Lead Ecg Report">
+  <defs><filter id="paper"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="2" result="n"/><feColorMatrix type="saturate" values="0"/><feBlend in="SourceGraphic" in2="n" mode="multiply"/></filter></defs>
+  <rect width="600" height="820" fill="#cfd3d6"/>
+  <g transform="rotate(0.6 300 410)">
+    <rect x="26" y="20" width="548" height="780" fill="#ffffff" filter="url(#paper)"/>
+    <rect x="26" y="20" width="548" height="74" fill="#0d5c63"/>
+    <text x="46" y="56" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#fff">KOVAI HEART CENTRE</text>
+    <text x="46" y="80" font-family="Arial, sans-serif" font-size="12" fill="#d8eff0">Non-invasive cardiology lab · 3, Race Course Road, Coimbatore</text>
+    <g font-family="Arial, sans-serif" font-size="13" fill="#222">
+      <text x="46" y="124">Patient: SIVAKUMAR NATARAJAN</text><text x="330" y="124">Age/Sex: 59 Y / M</text>
+      <text x="46" y="146">Ref. by: Self</text><text x="330" y="146">Date: 30-09-2026</text>
+    </g>
+    <line x1="46" y1="164" x2="554" y2="164" stroke="#0d5c63" stroke-width="1.5"/>
+    <text x="300" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0d5c63">12-LEAD ECG REPORT</text>
+    <g font-family="Arial, sans-serif" font-size="13" fill="#222">
+      <rect x="46" y="228" width="508" height="28" fill="#eef5f5"/>
+      <text x="56" y="247" font-weight="bold">Test</text><text x="290" y="247" font-weight="bold">Result</text><text x="370" y="247" font-weight="bold">Unit</text><text x="450" y="247" font-weight="bold">Reference</text>
+      <text x="56" y="285">Heart rate</text><text x="290" y="285" font-weight="bold">82</text><text x="370" y="285">bpm</text><text x="450" y="285">60 - 100</text><text x="56" y="317">PR interval</text><text x="290" y="317" font-weight="bold">164</text><text x="370" y="317">ms</text><text x="450" y="317">120 - 200</text><text x="56" y="349">QRS duration</text><text x="290" y="349" font-weight="bold">96</text><text x="370" y="349">ms</text><text x="450" y="349">80 - 120</text><text x="56" y="381">QTc</text><text x="290" y="381" font-weight="bold">452 H</text><text x="370" y="381">ms</text><text x="450" y="381">&lt; 450</text>
+    </g>
+    <rect x="46" y="423" width="508" height="100" fill="#fff5f5" stroke="#f1b4b4"/><polyline points="46,473 64,473 68,465 72,473 80,473 83,479 86,433 90,485 94,473 108,473 116,463 124,473 138,473 156,473 160,465 164,473 172,473 175,479 178,433 182,485 186,473 200,473 208,463 216,473 230,473 248,473 252,465 256,473 264,473 267,479 270,433 274,485 278,473 292,473 300,463 308,473 322,473 340,473 344,465 348,473 356,473 359,479 362,433 366,485 370,473 384,473 392,463 400,473 414,473 432,473 436,465 440,473 448,473 451,479 454,433 458,485 462,473 476,473 484,463 492,473 506,473 524,473 528,465 532,473 540,473 543,479 546,433 550,485 554,473 568,473 576,463 584,473" fill="none" stroke="#1b2a6b" stroke-width="1.6"/><text x="46" y="553" font-family="Arial, sans-serif" font-size="13" fill="#222">Impression: sinus rhythm. Please correlate clinically.</text>
+    <text x="46" y="740" font-family="Arial, sans-serif" font-size="12" fill="#555">H = above reference range, L = below reference range. Results relate only to the sample tested.</text>
+    <text x="554" y="764" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#555">*** End of report ***</text>
+  </g>
+</svg>

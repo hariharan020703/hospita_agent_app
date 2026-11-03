@@ -1,0 +1,228 @@
+[
+  {
+    "ruleIds": ["sr_chest", "sr_bp"],
+    "questions": [
+      {
+        "id": "chest_trigger",
+        "text": {"en": "Does it come on when you walk or climb stairs, or even when you are resting?", "ta": "நடக்கும்போது அல்லது படி ஏறும்போது வருகிறதா, அல்லது ஓய்வாக இருக்கும்போதும் வருகிறதா?"},
+        "quick": [
+          {"en": "When I walk or climb stairs", "ta": "நடக்கும்போது, படி ஏறும்போது"},
+          {"en": "Even at rest", "ta": "ஓய்வாக இருக்கும்போதும்"},
+          {"en": "Not sure", "ta": "தெரியவில்லை"}
+        ],
+        "soonIf": {"en": ["walk", "stairs", "climb", "rest", "exertion", "nadakum", "nadandha", "padi"], "ta": ["நடக்கும்", "நடந்தா", "படி", "ஓய்வ"]},
+        "soonReason": {"en": "comes on with walking or at rest", "ta": "நடக்கும்போதோ ஓய்விலோ வருகிறது"}
+      },
+      {
+        "id": "chest_with",
+        "text": {"en": "Along with it, do you feel very tired, dizzy, or your heartbeat racing?", "ta": "அதோடு அதிக சோர்வு, தலைசுற்றல், அல்லது இதயம் வேகமாகத் துடிப்பது போல இருக்கிறதா?"},
+        "quick": [
+          {"en": "Very tired", "ta": "அதிக சோர்வு"},
+          {"en": "Dizzy", "ta": "தலைசுற்றல்"},
+          {"en": "Heart racing", "ta": "இதயம் வேகமாகத் துடிக்கிறது"},
+          {"en": "None of these", "ta": "இவை எதுவும் இல்லை"}
+        ],
+        "soonIf": {"en": ["dizzy", "giddy", "racing", "palpitation"], "ta": ["தலைசுற்ற", "துடிக்"]},
+        "soonReason": {"en": "other heart-related symptoms", "ta": "இதயம் தொடர்பான பிற அறிகுறிகள்"}
+      }
+    ],
+    "soon": {"minSeverity": 6, "minAge": 45}
+  },
+  {
+    "ruleIds": ["sr_fever"],
+    "questions": [
+      {
+        "id": "fever_temp",
+        "text": {"en": "Have you measured your temperature? Is it high, like 102°F or more?", "ta": "காய்ச்சலை அளந்தீர்களா? 102°F அல்லது அதற்கு மேல் இருக்கிறதா?"},
+        "quick": [
+          {"en": "Yes, 102 or more", "ta": "ஆம், 102 அல்லது அதிகம்"},
+          {"en": "Lower than that", "ta": "அதைவிடக் குறைவு"},
+          {"en": "Not measured", "ta": "அளக்கவில்லை"}
+        ],
+        "soonIf": {"en": ["102", "103", "104", "high"], "ta": ["102", "103", "104", "அதிகம்"]},
+        "soonReason": {"en": "high temperature", "ta": "அதிக காய்ச்சல்"}
+      },
+      {
+        "id": "fever_with",
+        "text": {"en": "Do you also have cough, body pain, or burning while passing urine?", "ta": "இருமல், உடல் வலி, அல்லது சிறுநீர் கழிக்கும்போது எரிச்சல் இருக்கிறதா?"},
+        "quick": [
+          {"en": "Cough", "ta": "இருமல்"},
+          {"en": "Body pain", "ta": "உடல் வலி"},
+          {"en": "Burning urine", "ta": "சிறுநீரில் எரிச்சல்"},
+          {"en": "None of these", "ta": "இவை எதுவும் இல்லை"}
+        ]
+      }
+    ],
+    "soon": {"minSeverity": 8, "minAge": 65}
+  },
+  {
+    "ruleIds": ["sr_stomach"],
+    "questions": [
+      {
+        "id": "stomach_fluids",
+        "text": {"en": "Are you able to keep water and food down?", "ta": "தண்ணீரும் உணவும் வயிற்றில் நிற்கிறதா?"},
+        "quick": [
+          {"en": "Yes", "ta": "ஆம்"},
+          {"en": "No, I keep vomiting", "ta": "இல்லை, வாந்தி வருகிறது"}
+        ],
+        "soonIf": {"en": ["keep vomiting", "can't", "cannot", "not able"], "ta": ["வாந்தி", "முடியவில்லை", "முடியல"]},
+        "soonReason": {"en": "can't keep fluids down", "ta": "தண்ணீர் கூட நிற்கவில்லை"}
+      }
+    ],
+    "soon": {"minSeverity": 7}
+  },
+  {
+    "ruleIds": ["sr_joint"],
+    "questions": [
+      {
+        "id": "joint_injury",
+        "text": {"en": "Did it start after a fall or an injury?", "ta": "விழுந்ததாலோ அடிபட்டதாலோ இது தொடங்கியதா?"},
+        "quick": [
+          {"en": "Yes, after a fall or injury", "ta": "ஆம், விழுந்த அல்லது அடிபட்ட பிறகு"},
+          {"en": "No", "ta": "இல்லை"}
+        ],
+        "soonIf": {"en": ["fall", "fell", "injury", "accident"], "ta": ["விழுந்", "அடிபட்"]},
+        "soonReason": {"en": "started after a fall or injury", "ta": "விழுந்த அல்லது அடிபட்ட பிறகு தொடங்கியது"}
+      },
+      {
+        "id": "joint_function",
+        "text": {"en": "Is there swelling, or is it hard to walk or move the joint?", "ta": "வீக்கம் இருக்கிறதா, அல்லது நடக்கவோ மூட்டை அசைக்கவோ சிரமமாக இருக்கிறதா?"},
+        "quick": [
+          {"en": "Swelling", "ta": "வீக்கம்"},
+          {"en": "Hard to walk", "ta": "நடக்கச் சிரமம்"},
+          {"en": "Neither", "ta": "இரண்டும் இல்லை"}
+        ],
+        "soonIf": {"en": ["hard to walk", "can't walk", "cannot walk", "unable"], "ta": ["நடக்கச் சிரம", "நடக்க முடிய"]},
+        "soonReason": {"en": "hard to walk", "ta": "நடக்கச் சிரமம்"}
+      }
+    ],
+    "soon": {"minSeverity": 8}
+  },
+  {
+    "ruleIds": ["sr_child"],
+    "questions": [
+      {
+        "id": "child_feeding",
+        "text": {"en": "Is the child eating, drinking and passing urine as usual?", "ta": "குழந்தை வழக்கம்போல சாப்பிட்டு, குடித்து, சிறுநீர் கழிக்கிறதா?"},
+        "quick": [
+          {"en": "Yes, as usual", "ta": "ஆம், வழக்கம்போல"},
+          {"en": "Less than usual", "ta": "வழக்கத்தைவிடக் குறைவு"}
+        ],
+        "soonIf": {"en": ["less", "not eating", "not drinking", "refusing"], "ta": ["குறைவு", "சாப்பிடவில்லை", "குடிக்கவில்லை"]},
+        "soonReason": {"en": "eating or drinking less", "ta": "சாப்பிடுவது, குடிப்பது குறைவு"}
+      }
+    ],
+    "soon": {"minSeverity": 7, "maxAge": 1}
+  },
+  {
+    "ruleIds": ["sr_women"],
+    "questions": [
+      {
+        "id": "women_pregnant",
+        "text": {"en": "Are you pregnant, or could you be?", "ta": "நீங்கள் கர்ப்பமாக இருக்கிறீர்களா, அல்லது இருக்க வாய்ப்பு உள்ளதா?"},
+        "quick": [
+          {"en": "Yes", "ta": "ஆம்"},
+          {"en": "No", "ta": "இல்லை"},
+          {"en": "Not sure", "ta": "தெரியவில்லை"}
+        ],
+        "soonIf": {"en": ["yes", "pregnant", "not sure", "maybe"], "ta": ["ஆம்", "கர்ப்ப", "தெரியவில்லை"]},
+        "soonReason": {"en": "may be pregnant", "ta": "கர்ப்பமாக இருக்கலாம்"}
+      }
+    ],
+    "soon": {"minSeverity": 7}
+  },
+  {
+    "ruleIds": ["sr_skin"],
+    "questions": [
+      {
+        "id": "skin_spread",
+        "text": {"en": "Is it spreading quickly, or is there fever or swelling of the face?", "ta": "இது வேகமாகப் பரவுகிறதா, அல்லது காய்ச்சல் அல்லது முக வீக்கம் இருக்கிறதா?"},
+        "quick": [
+          {"en": "Spreading quickly", "ta": "வேகமாகப் பரவுகிறது"},
+          {"en": "Face swelling", "ta": "முகம் வீங்கியுள்ளது"},
+          {"en": "No", "ta": "இல்லை"}
+        ],
+        "soonIf": {"en": ["spreading", "swelling", "fever"], "ta": ["பரவு", "வீக்க", "வீங்கி", "காய்ச்சல்"]},
+        "soonReason": {"en": "spreading or with swelling", "ta": "பரவுகிறது அல்லது வீக்கம் உள்ளது"}
+      }
+    ],
+    "soon": {"minSeverity": 8}
+  },
+  {
+    "ruleIds": ["sr_ent"],
+    "questions": [
+      {
+        "id": "ent_with",
+        "text": {"en": "Is there fever, discharge from the ear, or difficulty swallowing?", "ta": "காய்ச்சல், காதில் சீழ் வடிதல், அல்லது விழுங்குவதில் சிரமம் இருக்கிறதா?"},
+        "quick": [
+          {"en": "Fever", "ta": "காய்ச்சல்"},
+          {"en": "Ear discharge", "ta": "காதில் சீழ்"},
+          {"en": "Hard to swallow", "ta": "விழுங்கச் சிரமம்"},
+          {"en": "None of these", "ta": "இவை எதுவும் இல்லை"}
+        ],
+        "soonIf": {"en": ["swallow", "discharge"], "ta": ["விழுங்க", "சீழ்"]},
+        "soonReason": {"en": "ear discharge or hard to swallow", "ta": "காதில் சீழ் அல்லது விழுங்கச் சிரமம்"}
+      }
+    ],
+    "soon": {"minSeverity": 8}
+  },
+  {
+    "ruleIds": ["sr_headache", "sr_neuro"],
+    "questions": [
+      {
+        "id": "head_pattern",
+        "text": {"en": "Is it on one side or all over, and does light or noise make it worse?", "ta": "வலி ஒரு பக்கமா, தலை முழுவதுமா? வெளிச்சம் அல்லது சத்தம் அதிகப்படுத்துகிறதா?"},
+        "quick": [
+          {"en": "One side", "ta": "ஒரு பக்கம்"},
+          {"en": "All over", "ta": "தலை முழுவதும்"},
+          {"en": "Light makes it worse", "ta": "வெளிச்சத்தில் அதிகமாகிறது"}
+        ]
+      },
+      {
+        "id": "head_with",
+        "text": {"en": "Any vomiting, blurred vision or numbness with it?", "ta": "அதோடு வாந்தி, மங்கலான பார்வை அல்லது மரத்துப்போதல் இருக்கிறதா?"},
+        "quick": [
+          {"en": "Vomiting", "ta": "வாந்தி"},
+          {"en": "Blurred vision", "ta": "மங்கலான பார்வை"},
+          {"en": "Numbness", "ta": "மரத்துப்போதல்"},
+          {"en": "None of these", "ta": "இவை எதுவும் இல்லை"}
+        ],
+        "soonIf": {"en": ["vomiting", "blurred", "numb"], "ta": ["வாந்தி", "மங்கல", "மரத்து"]},
+        "soonReason": {"en": "vomiting, blurred vision or numbness", "ta": "வாந்தி, மங்கலான பார்வை அல்லது மரத்துப்போதல்"}
+      }
+    ],
+    "soon": {"minSeverity": 8, "minAge": 50}
+  },
+  {
+    "ruleIds": ["sr_eye"],
+    "questions": [
+      {
+        "id": "eye_with",
+        "text": {"en": "Is the eye painful or red, or has your vision suddenly dropped?", "ta": "கண் வலிக்கிறதா, சிவந்திருக்கிறதா, அல்லது பார்வை திடீரென குறைந்ததா?"},
+        "quick": [
+          {"en": "Painful or red", "ta": "வலி அல்லது சிவப்பு"},
+          {"en": "Vision dropped suddenly", "ta": "பார்வை திடீரென குறைந்தது"},
+          {"en": "Neither", "ta": "இரண்டும் இல்லை"}
+        ],
+        "soonIf": {"en": ["suddenly", "sudden", "dropped"], "ta": ["திடீர", "குறைந்த"]},
+        "soonReason": {"en": "sudden change in vision", "ta": "பார்வையில் திடீர் மாற்றம்"}
+      }
+    ],
+    "soon": {"minSeverity": 7}
+  },
+  {
+    "ruleIds": ["sr_fatigue"],
+    "questions": [
+      {
+        "id": "fatigue_with",
+        "text": {"en": "Have you noticed weight loss, more thirst, or passing urine often?", "ta": "எடை குறைதல், அதிக தாகம், அடிக்கடி சிறுநீர் கழித்தல் ஏதேனும் கவனித்தீர்களா?"},
+        "quick": [
+          {"en": "Weight loss", "ta": "எடை குறைதல்"},
+          {"en": "More thirst", "ta": "அதிக தாகம்"},
+          {"en": "None of these", "ta": "இவை எதுவும் இல்லை"}
+        ]
+      }
+    ],
+    "soon": {"minSeverity": 8}
+  }
+]

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="820" viewBox="0 0 600 820" role="img" aria-label="Prescription">
+  <defs><filter id="paper"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" result="n"/><feColorMatrix type="saturate" values="0"/><feBlend in="SourceGraphic" in2="n" mode="multiply"/></filter></defs>
+  <rect width="600" height="820" fill="#d9d4c7"/>
+  <g transform="rotate(-0.9 300 410)">
+    <rect x="28" y="22" width="544" height="776" fill="#fbf8ef" filter="url(#paper)"/>
+    <rect x="28" y="22" width="544" height="96" fill="#eef0e6"/>
+    <text x="300" y="62" text-anchor="middle" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="#3a4a2a">SAI ENT CLINIC</text>
+    <text x="300" y="86" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#335">Dr. M. RAVI, MBBS, MS (ENT) · Reg. TNMC 52904</text>
+    <text x="300" y="106" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#556">12, Bharathi Park Road, Saibaba Colony, Coimbatore 641011</text>
+    <line x1="48" y1="130" x2="552" y2="130" stroke="#3a4a2a" stroke-width="1.5"/>
+    <text x="52" y="160" font-family="Arial, sans-serif" font-size="14" fill="#333">Name: <tspan font-family="'Segoe Script', cursive" font-size="19" fill="#1b2a6b">Rajesh K.</tspan></text>
+    <text x="330" y="160" font-family="Arial, sans-serif" font-size="14" fill="#333">Age/Sex: <tspan font-family="'Segoe Script', cursive" font-size="18" fill="#1b2a6b">39 / M</tspan></text>
+    <text x="52" y="190" font-family="Arial, sans-serif" font-size="14" fill="#333">Date: <tspan font-family="'Segoe Script', cursive" font-size="18" fill="#1b2a6b">02/03/2026</tspan></text>
+    <text x="52" y="236" font-family="'Segoe Script', cursive" font-size="20" fill="#1b2a6b">c/o sneezing, blocked nose x 2 weeks</text><text x="52" y="268" font-family="'Segoe Script', cursive" font-size="20" fill="#1b2a6b">Dx: Allergic rhinitis</text>
+    <text x="52" y="330" font-family="Georgia, serif" font-size="44" font-style="italic" fill="#3a4a2a">Rx</text>
+    <text x="88" y="384" font-family="'Segoe Script', cursive" font-size="21" fill="#1b2a6b">1. Fluticasone nasal spray</text><text x="128" y="414" font-family="'Segoe Script', cursive" font-size="18" fill="#1b2a6b">2 puffs each nostril at night x 1 month</text><text x="88" y="470" font-family="'Segoe Script', cursive" font-size="21" fill="#1b2a6b">2. Tab. Levocetirizine 5 mg</text><text x="128" y="500" font-family="'Segoe Script', cursive" font-size="18" fill="#1b2a6b">0 - 0 - 1   x 10 days</text>
+    <text x="52" y="576" font-family="'Segoe Script', cursive" font-size="18" fill="#1b2a6b">Avoid dust. Steam inhalation twice a day.</text>
+    <text x="400" y="720" font-family="'Segoe Script', cursive" font-size="22" fill="#1b2a6b">M. RAVI</text>
+    <line x1="380" y1="732" x2="540" y2="732" stroke="#555"/>
+    <text x="460" y="752" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#555">Signature</text>
+  </g>
+</svg>

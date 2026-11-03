@@ -1,0 +1,710 @@
+{
+  "appName": "Admin",
+  "nav": {
+    "dashboard": "Dashboard",
+    "doctors": "Doctors",
+    "departments": "Departments",
+    "schedules": "Schedules",
+    "appointments": "Appointments",
+    "patients": "Patients",
+    "reports": "Reports",
+    "settings": "Settings",
+    "agents": "Agents"
+  },
+  "status": {
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "units": {
+    "minutes": "{{value}} min",
+    "points": "{{value}} pts"
+  },
+  "filters": {
+    "heading": "Filters",
+    "department": "Department",
+    "allDepartments": "All departments",
+    "doctor": "Doctor",
+    "allDoctors": "All doctors",
+    "status": "Status",
+    "allStatuses": "All statuses",
+    "statuses": "Appointment status",
+    "statusesHint": "Select one or more. None selected shows every status."
+  },
+  "range": {
+    "label": "Date range",
+    "from": "From",
+    "to": "To",
+    "presets": {
+      "today": "Today",
+      "7d": "7 days",
+      "30d": "30 days",
+      "custom": "Custom"
+    },
+    "showing": "{{from}} – {{to}}",
+    "showingDay": "{{date}}",
+    "comparedWith_one": "compared with the day before",
+    "comparedWith_other": "compared with the previous {{count}} days"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "description": "How the OPD is running: waiting times, the AI assistant and patient volume.",
+    "kpiHeading": "Key figures",
+    "updating": "Updating…",
+    "noData": "No data for this period.",
+    "viewAsTable": "View as table",
+    "kpi": {
+      "avgWaitMins": "Average wait",
+      "aiHandledPct": "Handled by the AI assistant",
+      "noShowPct": "No-show rate",
+      "opdVolume": "OPD volume",
+      "routingAccuracyPct": "Routing accuracy",
+      "change": "{{change}} vs previous period",
+      "better": "Better",
+      "worse": "Worse",
+      "noChange": "No change vs previous period",
+      "noPrevious": "No earlier period to compare"
+    },
+    "charts": {
+      "waitTrend": "Waiting time trend",
+      "waitTrendHint": "Average minutes from check-in to consultation, per day.",
+      "waitTrendSummary_one": "Average waiting time for {{count}} day. Latest: {{latest}}.",
+      "waitTrendSummary_other": "Average waiting time over {{count}} days. Latest: {{latest}}.",
+      "volume": "Visits by department",
+      "volumeHint": "Appointments in the selected period.",
+      "volumeSummary": "Busiest department: {{department}}, with {{value}} of {{total}} visits.",
+      "heatmap": "Peak hours",
+      "heatmapHint": "Average patients per hour, by weekday. Darker means busier.",
+      "heatCell": "{{day}}, {{hour}}: {{value}} patients on average",
+      "heatLegend": "Patients per hour",
+      "heatRange": "{{from}}–{{to}}",
+      "heatAbove": "{{value}} or more",
+      "language": "Assistant conversations by language",
+      "languageHint": "Tamil and English conversations with the AI assistant.",
+      "conversations_one": "{{value}} conversation",
+      "conversations_other": "{{value}} conversations"
+    },
+    "table": {
+      "date": "Date",
+      "day": "Day",
+      "avgWait": "Average wait",
+      "department": "Department",
+      "visits": "Visits",
+      "share": "Share",
+      "language": "Language",
+      "conversations": "Conversations"
+    }
+  },
+  "doctors": {
+    "title": "Doctors",
+    "description": "Add doctors, update their details and choose who patients can book.",
+    "add": "Add doctor",
+    "search": "Search doctors",
+    "searchHint": "Name, registration number or room",
+    "count_one": "{{count}} doctor",
+    "count_other": "{{count}} doctors",
+    "empty": "No doctors match your search or filters",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "activateTitle": "Activate {{name}}?",
+    "activateBody": "Patients will be able to see and book this doctor again.",
+    "deactivateTitle": "Deactivate {{name}}?",
+    "deactivateBody": "Patients will no longer see or book this doctor. Existing appointments stay as they are; please move them if needed.",
+    "columns": {
+      "doctor": "Doctor",
+      "department": "Department",
+      "languages": "Languages",
+      "fee": "Fee",
+      "consult": "Consultation",
+      "room": "Room",
+      "status": "Status"
+    },
+    "form": {
+      "addTitle": "Add a doctor",
+      "addHint": "The doctor appears in the patient app and kiosk once saved as active.",
+      "editTitle": "Edit doctor",
+      "identity": "Name and photo",
+      "name": "Name in English",
+      "nameHint": "Without the “Dr.” prefix",
+      "nameTa": "Name in Tamil",
+      "gender": "Gender",
+      "photo": "Photo",
+      "photoHint": "JPG or PNG, up to 1 MB. Initials are shown when there is no photo.",
+      "photoPreview": "Photo preview",
+      "photoType": "Please choose an image file.",
+      "photoSize": "This image is larger than 1 MB. Please choose a smaller one.",
+      "photoRead": "We couldn't read this file. Please try another image.",
+      "removePhoto": "Remove photo",
+      "credentials": "Qualifications and registration",
+      "qualifications": "Qualifications",
+      "qualificationsHint": "Separate with commas",
+      "registrationNo": "Medical council registration number",
+      "registrationHint": "Tamil Nadu Medical Council number",
+      "registrationTaken": "Another doctor already has this registration number.",
+      "experience": "Years of experience",
+      "practice": "Department and consultation",
+      "department": "Department",
+      "chooseDepartment": "Choose a department",
+      "languages": "Languages spoken",
+      "fee": "Consultation fee (₹)",
+      "consultMins": "Minutes per patient",
+      "room": "Room",
+      "about": "About and availability",
+      "bioEn": "Short bio in English",
+      "bioTa": "Short bio in Tamil",
+      "active": "Active",
+      "activeHint": "Active doctors can be booked by patients."
+    }
+  },
+  "departments": {
+    "title": "Departments",
+    "description": "Departments, where they are, their token prefixes and the keywords the AI assistant uses to route patients.",
+    "add": "Add department",
+    "search": "Search departments",
+    "empty": "No departments match your search or filters",
+    "bookable": "Bookable",
+    "notBookable": "Walk-in only",
+    "keywords": "Keywords",
+    "floorWing": "Floor {{floor}} · {{wing}}",
+    "columns": {
+      "department": "Department",
+      "location": "Location",
+      "tokenPrefix": "Token prefix",
+      "status": "Status"
+    },
+    "icons": {
+      "stethoscope": "Stethoscope",
+      "heart-pulse": "Heart",
+      "bone": "Bone",
+      "baby": "Baby",
+      "venus": "Women's health",
+      "hand": "Hand (skin)",
+      "ear": "Ear",
+      "brain": "Brain",
+      "eye": "Eye",
+      "siren": "Siren (emergency)"
+    },
+    "form": {
+      "addTitle": "Add a department",
+      "addHint": "New departments appear in the patient app and kiosk when active and bookable.",
+      "editTitle": "Edit department",
+      "nameEn": "Name in English",
+      "nameTa": "Name in Tamil",
+      "descriptionEn": "Description in English",
+      "descriptionTa": "Description in Tamil",
+      "icon": "Icon",
+      "preview": "Preview",
+      "floor": "Floor",
+      "floorHint": "0 is the ground floor",
+      "wingEn": "Wing in English",
+      "wingTa": "Wing in Tamil",
+      "tokenPrefix": "Token prefix",
+      "tokenPrefixHint": "2 to 4 capital letters, printed on tokens, for example CAR-014",
+      "tokenPrefixTaken": "Another department already uses this prefix.",
+      "bookable": "Patients can book appointments",
+      "bookableHint": "Turn off for walk-in-only services such as Emergency.",
+      "active": "Active",
+      "activeHint": "Inactive departments are hidden from patients and the kiosk."
+    }
+  },
+  "rules": {
+    "title": "Routing keywords",
+    "description": "Words patients use that point the AI assistant to a department. The assistant suggests a department; it never diagnoses.",
+    "department": "Department",
+    "search": "Search keywords",
+    "add": "Add keyword rule",
+    "addTitle": "Add keyword rule",
+    "editTitle": "Edit keyword rule",
+    "forDepartment": "Department: {{department}}",
+    "tableCaption": "Routing keywords for {{department}}",
+    "empty": "No keyword rules for this department yet",
+    "emptyBody": "Add the words patients commonly use, in English and Tamil.",
+    "emptySearch": "No keyword rules match your search",
+    "none": "None",
+    "deleteTitle": "Delete “{{label}}”?",
+    "deleteBody": "The assistant will stop using these keywords to route patients.",
+    "labelEn": "Label in English",
+    "labelTa": "Label in Tamil",
+    "labelHint": "A short name for the group, for example “Chest pain”",
+    "keywordsEn": "English keywords",
+    "keywordsEnHint": "Separate with commas. Include common Tanglish spellings.",
+    "keywordsTa": "Tamil keywords",
+    "keywordsTaHint": "Separate with commas.",
+    "weight": "Weight",
+    "weightHint": "0.5 to 3. Higher weights count more when several departments match.",
+    "columns": {
+      "label": "Rule",
+      "keywordsEn": "English keywords",
+      "keywordsTa": "Tamil keywords",
+      "weight": "Weight"
+    }
+  },
+  "hours": {
+    "closed": "Closed",
+    "add": "Add hours",
+    "addFor": "Add hours on {{day}}",
+    "start": "Start time, {{day}}, slot {{n}}",
+    "end": "End time, {{day}}, slot {{n}}",
+    "remove": "Remove {{day}} slot {{n}}",
+    "overlap": "These hours overlap another slot on the same day.",
+    "fixErrors": "Please fix the highlighted hours before saving."
+  },
+  "schedules": {
+    "title": "Schedules",
+    "description": "Doctors' weekly hours, hospital holidays and leave requests.",
+    "tabs": {
+      "weekly": "Weekly availability",
+      "holidays": "Holidays",
+      "leaves": "Leave requests"
+    },
+    "weekly": {
+      "title": "Weekly availability",
+      "description": "The hours each doctor sees outpatients. Patients can book slots only inside these hours.",
+      "doctor": "Doctor",
+      "chooseDoctor": "Search for a doctor",
+      "noDoctors": "No doctors found",
+      "pickFirst": "Choose a doctor to edit their hours",
+      "pickFirstBody": "Search by name, department or room.",
+      "editorLabel": "Weekly hours",
+      "save": "Save hours"
+    },
+    "holidays": {
+      "title": "Hospital holidays",
+      "description": "The OPD is closed on these days and no appointments can be booked.",
+      "date": "Date",
+      "nameEn": "Name in English",
+      "nameTa": "Name in Tamil",
+      "add": "Add holiday",
+      "duplicate": "There is already a holiday on this date.",
+      "search": "Search holidays",
+      "showPast": "Show past holidays",
+      "past": "Past",
+      "empty": "No holidays to show",
+      "remove": "Remove {{name}}"
+    }
+  },
+  "leaves": {
+    "title": "Leave requests",
+    "description": "Approve or reject doctors' leave and time-block requests. Approved leave closes those slots for booking.",
+    "pending": "Pending",
+    "history": "History",
+    "search": "Search by doctor or reason",
+    "approve": "Approve",
+    "reject": "Reject",
+    "rejectTitle": "Reject the request from {{name}}?",
+    "rejectBody": "The doctor's hours stay open for booking. The doctor will see that the request was rejected.",
+    "emptyPending": "No requests waiting for a decision",
+    "emptyHistory": "No leave requests yet",
+    "emptySearch": "No requests match your search or filters",
+    "range": "{{from}} – {{to}}",
+    "blockWhen": "{{date}}, {{from}}–{{to}}",
+    "kind": {
+      "leave": "Leave",
+      "block": "Time block"
+    },
+    "status": {
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected"
+    },
+    "columns": {
+      "doctor": "Doctor",
+      "kind": "Type",
+      "when": "When",
+      "reason": "Reason",
+      "requested": "Requested",
+      "status": "Status"
+    }
+  },
+  "appointments": {
+    "title": "Appointments",
+    "description": "All appointments across departments. Filter, then export what you see.",
+    "search": "Search appointments",
+    "searchHint": "Patient name, phone, token or booking ID",
+    "count_one": "{{count}} appointment",
+    "count_other": "{{count}} appointments",
+    "empty": "No appointments match your filters",
+    "source": {
+      "app": "Patient app",
+      "kiosk": "Kiosk",
+      "desk": "Front desk"
+    },
+    "columns": {
+      "when": "Date and time",
+      "token": "Token",
+      "patient": "Patient",
+      "doctor": "Doctor",
+      "department": "Department",
+      "status": "Status",
+      "source": "Booked via"
+    },
+    "csv": {
+      "date": "Date",
+      "time": "Time",
+      "token": "Token",
+      "bookingId": "Booking ID",
+      "patient": "Patient",
+      "phone": "Phone",
+      "doctor": "Doctor",
+      "department": "Department",
+      "status": "Status",
+      "source": "Booked via"
+    }
+  },
+  "patients": {
+    "title": "Patients",
+    "description": "Registered patients. Select a patient to see their details and visits.",
+    "search": "Search patients",
+    "searchHint": "Name, phone or ABHA number",
+    "count_one": "{{count}} patient",
+    "count_other": "{{count}} patients",
+    "empty": "No patients match your search",
+    "abhaFilter": "ABHA",
+    "abhaAll": "All patients",
+    "abhaLinked": "ABHA linked",
+    "abhaNotLinked": "No ABHA",
+    "abhaNone": "Not provided",
+    "yes": "Yes",
+    "no": "No",
+    "none": "None recorded",
+    "consentNone": "Not recorded",
+    "consentValue": "Given on {{date}} (version {{version}})",
+    "ageValue_one": "{{count}} year",
+    "ageValue_other": "{{count}} years",
+    "drawerHint": "Patient details and appointments",
+    "appointments": "Appointments",
+    "noAppointments": "No appointments yet",
+    "tokenValue": "Token {{token}}",
+    "columns": {
+      "name": "Name",
+      "age": "Age",
+      "gender": "Gender",
+      "phone": "Phone",
+      "area": "Area",
+      "abha": "ABHA",
+      "consent": "Consent given"
+    },
+    "fields": {
+      "age": "Age",
+      "gender": "Gender",
+      "phone": "Phone",
+      "address": "Address",
+      "abha": "ABHA number",
+      "language": "Preferred language",
+      "relation": "Relation to account holder",
+      "conditions": "Known conditions",
+      "consent": "Data consent",
+      "registered": "Registered on"
+    }
+  },
+  "reports": {
+    "title": "Reports",
+    "description": "Summaries built from appointments in the chosen dates. Download any report as CSV.",
+    "download": "Download CSV",
+    "empty": "No appointments in these dates",
+    "daily": {
+      "title": "Daily OPD summary",
+      "description": "{{total}} appointments: {{completed}} completed, {{noShows}} no-shows, {{cancelled}} cancelled."
+    },
+    "departments": {
+      "title": "Department volume",
+      "description": "Appointments per department. The no-show rate excludes cancelled appointments."
+    },
+    "noShows": {
+      "title": "No-show list",
+      "description_one": "{{count}} patient did not come for their appointment.",
+      "description_other": "{{count}} patients did not come for their appointments."
+    },
+    "columns": {
+      "date": "Date",
+      "time": "Time",
+      "when": "Date and time",
+      "total": "Total",
+      "completed": "Completed",
+      "noShows": "No-shows",
+      "cancelled": "Cancelled",
+      "noShowRate": "No-show rate (%)",
+      "department": "Department",
+      "token": "Token",
+      "bookingId": "Booking ID",
+      "patient": "Patient",
+      "phone": "Phone",
+      "doctor": "Doctor"
+    }
+  },
+  "settings": {
+    "title": "Settings",
+    "description": "Hospital details, OPD hours, emergency numbers, booking rules and the AI assistant's safety list.",
+    "tabs": {
+      "profile": "Hospital profile",
+      "hours": "OPD hours",
+      "contact": "Emergency numbers",
+      "booking": "Booking rules",
+      "tokens": "Token prefixes",
+      "redFlags": "Red flags",
+      "data": "Sample data"
+    },
+    "profile": {
+      "title": "Hospital profile",
+      "description": "Shown to patients in the app, on the kiosk and on printed slips.",
+      "nameEn": "Hospital name in English",
+      "nameTa": "Hospital name in Tamil",
+      "taglineEn": "Tagline in English",
+      "taglineTa": "Tagline in Tamil",
+      "address": "Address",
+      "line1": "Address line",
+      "area": "Area",
+      "city": "City",
+      "state": "State",
+      "pincode": "PIN code",
+      "email": "Email"
+    },
+    "hours": {
+      "title": "OPD hours",
+      "description": "When the outpatient department is open. Doctors' hours should fall inside these."
+    },
+    "contact": {
+      "title": "Emergency numbers",
+      "description": "Shown on the emergency screen, the kiosk and the patient app. Patients can tap to call.",
+      "main": "Main reception",
+      "mainHint": "For appointments and general questions",
+      "emergency": "Emergency department",
+      "emergencyHint": "Answered 24 hours a day",
+      "ambulance": "Ambulance",
+      "ambulanceHint": "For example 108"
+    },
+    "booking": {
+      "title": "Booking rules",
+      "description": "Limits for booking and changing appointments, kiosk timing and queue travel estimates.",
+      "bookingGroup": "Booking",
+      "maxDaysAhead": "Book up to (days ahead)",
+      "maxDaysAheadHint": "1 to 90 days",
+      "leadMins": "Earliest same-day slot (minutes from now)",
+      "leadMinsHint": "0 to 240 minutes",
+      "changeCutoffMins": "Changes allowed until (minutes before)",
+      "changeCutoffMinsHint": "Patients can cancel or reschedule until this many minutes before the slot",
+      "queueGroup": "Kiosk and live queue",
+      "kioskIdle": "Kiosk resets after (seconds idle)",
+      "kioskIdleHint": "15 to 600 seconds",
+      "travelDefault": "Default travel time (minutes)",
+      "travelDefaultHint": "Used for “leave home by” when the patient hasn't set their own",
+      "travelBuffer": "Extra buffer (minutes)",
+      "travelBufferHint": "Added to travel time so patients arrive a little early"
+    },
+    "tokens": {
+      "title": "Token prefixes",
+      "description": "The letters printed before each token number, per department.",
+      "search": "Search departments",
+      "department": "Department",
+      "example": "Current token",
+      "prefix": "Prefix",
+      "inputLabel": "Token prefix for {{department}}",
+      "save": "Save",
+      "undo": "Undo",
+      "invalid": "Use 2 to 4 capital letters.",
+      "taken": "Another department already uses this prefix.",
+      "empty": "No departments match your search",
+      "note": "A new prefix applies to tokens issued after you save. Tokens already given to patients keep their old prefix."
+    },
+    "sampleData": {
+      "title": "Sample data",
+      "description": "This installation is using built-in sample data.",
+      "body": "Restore the original doctors, patients and appointments. Use this before a demo or after testing."
+    }
+  },
+  "redFlags": {
+    "title": "Red flags",
+    "description": "Warning signs that make the AI assistant stop and show the emergency screen (call 108 or go to Emergency). Changes apply immediately.",
+    "add": "Add red flag",
+    "addTitle": "Add red flag",
+    "editTitle": "Edit red flag",
+    "drawerHint": "The assistant shows the emergency screen when a patient's words match any group below.",
+    "search": "Search red flags",
+    "empty": "No red flags match your search or filters",
+    "noHelpline": "None",
+    "groupCount": "EN {{en}} · TA {{ta}}",
+    "deleteTitle": "Delete “{{label}}”?",
+    "deleteBody": "The assistant will no longer treat these words as an emergency. Consider turning the flag off instead.",
+    "labelEn": "Label in English",
+    "labelTa": "Label in Tamil",
+    "formatTitle": "How to write term groups",
+    "formatBody": "Write one group per line. Separate the terms in a group with commas. A group matches only when ALL its terms appear in what the patient says; any matching group raises the flag.",
+    "formatExample": "chest pain, sweating\nchest pain, left arm\ncannot breathe",
+    "groupsEn": "English term groups",
+    "groupsTa": "Tamil term groups",
+    "groupsHint": "One group per line, terms separated by commas.",
+    "helpline": "Extra helpline (optional)",
+    "helplineHint": "Shown on the emergency screen with 108, for example a mental-health helpline. Fill all three fields or leave them all empty.",
+    "helplineLabelEn": "Helpline name in English",
+    "helplineLabelTa": "Helpline name in Tamil",
+    "helplineNumber": "Helpline number",
+    "active": "Active",
+    "activeHint": "Inactive red flags are kept but not checked.",
+    "columns": {
+      "label": "Red flag",
+      "groups": "Term groups",
+      "helpline": "Helpline",
+      "status": "Status"
+    }
+  },
+  "agents": {
+    "summary": {
+      "symptoms": "Routed to {{department}} ({{urgency}})",
+      "emergency": "Warning sign: {{flag}}. Emergency screen shown, booking blocked",
+      "queue_status": "Queue status for token {{token}}",
+      "book": "Booked {{token}} with {{doctor}}",
+      "reschedule": "Moved {{token}} to {{date}}, {{time}}",
+      "cancel": "Cancelled {{token}}",
+      "my_appointments": "Listed {{count}} upcoming appointments",
+      "human": "Handed over to the front desk",
+      "medicine_question": "Medicine question refused and referred to a doctor",
+      "record_uploaded": "{{kind}}: {{medicines}} medicines, {{tests}} test values",
+      "pre_visit_summary": "Pre-visit summary for {{patient}}",
+      "consultation_started": "Started listening to the consultation",
+      "consultation_ended": "Note drafted: {{fields}} fields, {{medicines}} medicines",
+      "prescription_signed": "Note signed with {{edits}} edits",
+      "care_plan_ready": "Care plan sent: {{count}} medicines",
+      "care_question": "Answered from the care plan",
+      "care_asked_doctor": "Question passed to the doctor",
+      "care_refused": "Dose change question refused and passed to the doctor",
+      "check_in": "Day {{day}} check-in sent",
+      "check_in_reply": "Check-in reply: {{outcome}}",
+      "check_in_reply_warning": "Warning sign in a check-in reply: urgent alert to the doctor",
+      "care_emergency": "Warning sign in a care question: emergency advice shown, doctor alerted",
+      "doctor_reply": "Doctor replied to a patient question",
+      "agent_paused": "Agent paused",
+      "agent_resumed": "Agent switched back on"
+    },
+    "title": "Agents",
+    "subtitle": "The orchestrator and its four agents. Pausing an agent hides its screens and the normal flow takes over.",
+    "live": "Live activity",
+    "liveBody": "What the orchestrator and agents did, newest first, with the trail and the human decision.",
+    "filterLabel": "Show activity for",
+    "filterAll": "All agents",
+    "details": "Details",
+    "notFound": "No such agent",
+    "runsIn": "Runs in",
+    "humanCheck": "Human check",
+    "today": "Today",
+    "avgConfidence": "Average confidence",
+    "overrideRate": "Edited or overridden",
+    "noData": "—",
+    "lastActive": "Last activity at {{time}}",
+    "status": {
+      "active": "Active",
+      "paused": "Paused"
+    },
+    "pauseTitle": "Pause the {{name}}?",
+    "pauseConfirm": "Pause agent",
+    "pausedToast": "{{name}} paused. The normal flow takes over.",
+    "resumed": "{{name}} switched back on.",
+    "pauseBody": {
+      "orchestrator": "The assistant chat disappears from the patient app and the kiosk. Patients choose a department and book from the doctors list.",
+      "triage": "Patients choose a department themselves instead of describing their symptoms.",
+      "records": "Document upload is hidden and doctors' pre-visit summaries leave out documents.",
+      "scribe": "Doctors type the consultation note themselves.",
+      "care": "Care plans, the companion chat, check-ins and the patient follow-ups list are hidden."
+    },
+    "names": {
+      "orchestrator": "Orchestrator",
+      "triage": "Triage agent",
+      "records": "Medical records agent",
+      "scribe": "Consultation scribe",
+      "care": "Care companion"
+    },
+    "surfaces": {
+      "patient": "Patient app",
+      "kiosk": "Kiosk",
+      "desk": "Front desk",
+      "doctor": "Doctor app",
+      "admin": "Admin"
+    },
+    "defs": {
+      "orchestrator": {
+        "purpose": "Single entry point for patient and kiosk conversations and for agent events. Understands Tamil, English and Tanglish, then calls one agent or a tool (searchDoctors, getSlots, bookAppointment, rescheduleAppointment, cancelAppointment, getQueueStatus, getPatientProfile, sendNotification), with a safety check before and after every reply.",
+        "humanCheck": "Patients confirm every booking, change and cancellation. Warning signs go straight to the emergency screen with booking blocked; medicine-dose questions are never answered."
+      },
+      "triage": {
+        "purpose": "Asks follow-up questions that fit the complaint, then suggests a department, how soon to be seen and how sure it is, with plain-language reasons. Never diagnoses.",
+        "humanCheck": "Below 70% confidence the patient is offered the front desk. The patient decides whether to book."
+      },
+      "records": {
+        "purpose": "Reads uploaded prescriptions, lab reports and discharge summaries into medicines, test values and conditions, and builds the doctor's pre-visit summary with a source for every item.",
+        "humanCheck": "The patient checks and corrects every document before it is saved; low-confidence fields are highlighted."
+      },
+      "scribe": {
+        "purpose": "Transcribes the consultation and drafts the note and prescription in the doctor's words.",
+        "humanCheck": "Every AI-filled field stays marked until the doctor edits or confirms it. Nothing is final until the doctor signs."
+      },
+      "care": {
+        "purpose": "Turns the signed prescription into a care plan, answers questions only from it, and checks in after the visit.",
+        "humanCheck": "Anything outside the plan and every dose question goes to the doctor. Warning signs raise an urgent alert."
+      }
+    },
+    "metrics": {
+      "conversations": "Conversations",
+      "toolCalls": "Tool calls",
+      "safetyStops": "Safety stops",
+      "emergencies": "Emergency screens",
+      "handoffs": "Front-desk handoffs",
+      "documents": "Documents read",
+      "summaries": "Pre-visit summaries",
+      "notesDrafted": "Notes drafted",
+      "notesSigned": "Notes signed",
+      "followUpsSent": "Follow-ups sent",
+      "questionsAnswered": "Questions answered",
+      "alerts": "Alerts raised"
+    },
+    "workflow": {
+      "title": "Workflow",
+      "steps": {
+        "input": "Input",
+        "safety_in": "Safety check",
+        "intent": "Intent",
+        "route": "Agent or tool",
+        "agent": "Agent",
+        "human": "Human review",
+        "safety_out": "Output check",
+        "output": "Output"
+      },
+      "details": {
+        "input": "Patient or doctor words, voice or documents",
+        "safety_in": "Warning signs, dose questions",
+        "intent": "Understand the request",
+        "route": "Call one agent or a tool",
+        "agent": "Does the work from the data it is given",
+        "human": "A person checks, edits or dismisses",
+        "safety_out": "No diagnosis wording",
+        "output": "Shown to the patient or the doctor"
+      }
+    },
+    "confidence": {
+      "title": "Confidence distribution",
+      "body": "Outputs logged today, by how sure the agent was.",
+      "empty": "This agent does not report confidence.",
+      "bucket": "{{from}}–{{to}}%",
+      "count_one": "1 output",
+      "count_other": "{{count}} outputs"
+    },
+    "decisions": {
+      "title": "Human decisions",
+      "body": "What people did with this agent's outputs.",
+      "accepted": "Accepted",
+      "edited": "Edited",
+      "dismissed": "Dismissed",
+      "pending": "Waiting for review",
+      "none": "No review needed"
+    },
+    "activity": {
+      "title": "Recent activity",
+      "empty": "No activity yet",
+      "confidence": "{{value}}% sure"
+    },
+    "actor": {
+      "patient": "Patient app",
+      "kiosk": "Kiosk",
+      "doctor": "Doctor",
+      "desk": "Front desk",
+      "system": "System"
+    }
+  }
+}

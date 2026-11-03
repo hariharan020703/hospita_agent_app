@@ -1,0 +1,7 @@
+[
+  {"terms": {"en": ["bp", "blood pressure", "hypertension", "pressure"], "ta": ["பிபி", "ரத்த அழுத்தம்", "இரத்த அழுத்தம்", "பிரஷர்", "bp"]}, "label": {"en": "BP history", "ta": "BP வரலாறு"}},
+  {"terms": {"en": ["sugar", "diabetes", "diabetic"], "ta": ["சர்க்கரை", "நீரிழிவு", "சுகர்"]}, "label": {"en": "diabetes", "ta": "சர்க்கரை நோய்"}},
+  {"terms": {"en": ["heart", "cholesterol", "stent", "bypass"], "ta": ["இதய", "கொழுப்பு", "ஸ்டென்ட்"]}, "label": {"en": "heart history", "ta": "இதய நோய் வரலாறு"}},
+  {"terms": {"en": ["asthma", "copd", "wheezing"], "ta": ["ஆஸ்துமா", "இளைப்பு"]}, "label": {"en": "asthma", "ta": "ஆஸ்துமா"}},
+  {"terms": {"en": ["kidney", "dialysis"], "ta": ["சிறுநீரக"]}, "label": {"en": "kidney disease", "ta": "சிறுநீரக நோய்"}}
+]

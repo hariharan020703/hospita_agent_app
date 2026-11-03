@@ -1,0 +1,480 @@
+{
+  "nav": {
+    "home": "Home",
+    "assistant": "Symptoms",
+    "appointments": "Appointments",
+    "profile": "Profile",
+    "settings": "Settings",
+    "notifications": "Notifications",
+    "emergency": "Emergency",
+    "logout": "Log out"
+  },
+  "home": {
+    "greeting": "Hello, {{name}}",
+    "greetingNoName": "Hello",
+    "subtitle": "How can we help you today?",
+    "nextAppointment": "Your next appointment",
+    "noUpcoming": "You have no upcoming appointments.",
+    "bookNow": "Book an appointment",
+    "trackQueue": "Track the live queue",
+    "quickTitle": "Quick actions",
+    "quick": {
+      "assistant": "Describe your symptoms",
+      "assistantHint": "Find the right department",
+      "doctors": "Find a doctor",
+      "doctorsHint": "Book by department",
+      "appointments": "My appointments",
+      "appointmentsHint": "Reschedule or cancel",
+      "family": "Family members",
+      "familyHint": "Book for a parent or child",
+      "records": "Health records",
+      "recordsHint": "Upload old reports",
+      "care": "Care plan",
+      "careHint": "Medicines and advice"
+    },
+    "latestUpdates": "Latest updates",
+    "seeAll": "See all",
+    "emergencyTitle": "In an emergency, don't wait",
+    "emergencyBody": "Call 108 for an ambulance or go to the hospital's Emergency department.",
+    "call108": "Call 108",
+    "emergencyInfo": "Emergency information",
+    "carePlan": "Your care plan",
+    "carePlanHint_one": "1 medicine · today's checklist · ask questions",
+    "carePlanHint_other": "{{count}} medicines · today's checklist · ask questions"
+  },
+  "doctors": {
+    "title": "Find a doctor",
+    "recommendedFor": "Showing {{department}}, the department suggested for your symptoms.",
+    "search": "Search by doctor's name",
+    "department": "Department",
+    "allDepartments": "All departments",
+    "language": "Language",
+    "anyLanguage": "Any language",
+    "gender": "Doctor",
+    "anyGender": "Any doctor",
+    "female": "Female doctor",
+    "male": "Male doctor",
+    "maxFee": "Fee up to",
+    "anyFee": "Any fee",
+    "sort": "Sort by",
+    "sortNext": "Earliest available",
+    "sortFee": "Lowest fee",
+    "empty": "No doctors match these filters",
+    "emptyBody": "Try another department or clear the filters.",
+    "count_one": "{{count}} doctor",
+    "count_other": "{{count}} doctors",
+    "viewAndBook": "View and book",
+    "nextAvailable": "Next available",
+    "noneAvailable": "No free slots in the next 2 weeks"
+  },
+  "doctor": {
+    "qualifications": "Qualifications",
+    "languages": "Languages",
+    "location": "Location",
+    "locationValue": "Room {{room}}, {{wing}}, floor {{floor}}",
+    "registration": "Registration number",
+    "hours": "Outpatient hours",
+    "closed": "Closed",
+    "notBookable": "This doctor isn't taking appointments right now.",
+    "chooseDate": "Choose a date",
+    "chooseTime": "Choose a time",
+    "selected": "Selected: {{date}} at {{time}}",
+    "continue": "Continue"
+  },
+  "booking": {
+    "title": "Confirm appointment",
+    "summary": "Appointment details",
+    "fee": "Fee (pay at the hospital)",
+    "for": "Who is this appointment for?",
+    "addMember": "Add a family member",
+    "reason": "Reason for visit (optional)",
+    "reasonHint": "A few words help the doctor prepare.",
+    "pickAnother": "Choose another time",
+    "confirm": "Confirm booking",
+    "booked": "Appointment booked",
+    "successTitle": "You're booked!",
+    "successBody": "We'll remind you before your appointment and tell you when to leave home."
+  },
+  "appointments": {
+    "title": "My appointments",
+    "upcoming": "Upcoming",
+    "past": "Past",
+    "emptyUpcoming": "No upcoming appointments",
+    "emptyUpcomingBody": "Describe your symptoms or find a doctor to book.",
+    "emptyPast": "No past appointments yet",
+    "forPatient": "For {{name}}"
+  },
+  "appointment": {
+    "title": "Appointment",
+    "token": "Token",
+    "bookingRef": "Booking ID",
+    "qrTitle": "Check-in code",
+    "qrHint": "Scan this at the kiosk when you arrive, or show it at the front desk.",
+    "patient": "Patient",
+    "doctor": "Doctor",
+    "when": "Date and time",
+    "where": "Where",
+    "reason": "Reason for visit",
+    "note": "Doctor's note",
+    "actions": "Manage appointment",
+    "trackQueue": "Track the live queue",
+    "addToCalendar": "Add to calendar",
+    "reschedule": "Reschedule",
+    "cancel": "Cancel appointment",
+    "changeCutoff": "You can change this appointment up to {{count}} minutes before it starts.",
+    "tooLateToChange": "It's too close to the appointment to reschedule. Call the hospital if you need help.",
+    "rescheduleTitle": "Reschedule appointment",
+    "rescheduleConfirm": "Move appointment",
+    "rescheduled": "Appointment moved",
+    "cancelTitle": "Cancel this appointment?",
+    "cancelBody": "The slot will be released for other patients.",
+    "cancelConfirm": "Cancel appointment",
+    "cancelReason": "Why are you cancelling?",
+    "cancelReasons": {
+      "feeling_better": "I'm feeling better",
+      "schedule_conflict": "I can't make this time",
+      "booked_elsewhere": "I'm seeing another doctor",
+      "travel": "I can't travel",
+      "other": "Another reason"
+    },
+    "cancelNote": "Anything else? (optional)",
+    "cancelled": "Appointment cancelled",
+    "calendarTitle": "Appointment with {{doctor}}",
+    "calendarDescription": "Token {{token}}. Booking ID {{ref}}."
+  },
+  "queue": {
+    "title": "Live queue",
+    "token": "Your token",
+    "nowServing": "Now serving",
+    "noneServing": "Not started",
+    "ahead": "Patients ahead",
+    "expected": "Expected time",
+    "leaveBy": "Leave home by",
+    "progress": "Visit progress",
+    "steps": {
+      "booked": "Booked",
+      "leave": "Leave home",
+      "checkin": "Check in",
+      "consult": "Consultation"
+    },
+    "travelTime": "Travel time to the hospital",
+    "travelValue": "{{count}} min",
+    "checkInHint": "When you arrive, scan your check-in code at the kiosk near the entrance.",
+    "showCode": "Show check-in code",
+    "notToday": "Live tracking starts on the day of your visit: {{date}} at {{time}}.",
+    "updated": "Updated at {{time}}",
+    "announce": "{{phase}}. Patients ahead: {{count}}.",
+    "phases": {
+      "relax": {
+        "title": "Relax, there's time",
+        "body": "Leave home by {{time}}. We'll update this if anything changes."
+      },
+      "get_ready": {
+        "title": "Get ready to leave",
+        "body": "Leave home by {{time}} to arrive on time."
+      },
+      "leave_now": {
+        "title": "Time to leave now",
+        "body": "Leave now to reach the hospital before your turn."
+      },
+      "waiting": {
+        "title": "You're checked in",
+        "body": "Please wait near Room {{room}}. We'll tell you when you're next."
+      },
+      "next": {
+        "title": "You're next",
+        "body": "Please be ready outside Room {{room}}."
+      },
+      "your_turn": {
+        "title": "It's your turn",
+        "body": "Please go into Room {{room}} now."
+      },
+      "done": {
+        "title": "Consultation complete",
+        "body": "We hope you feel better soon."
+      },
+      "closed": {
+        "title": "This appointment is closed",
+        "body": "It was cancelled or marked as missed."
+      }
+    }
+  },
+  "notifications": {
+    "title": "Notifications",
+    "markAll": "Mark all as read",
+    "empty": "No notifications yet",
+    "emptyBody": "Booking confirmations and queue alerts will appear here.",
+    "unread": "Unread",
+    "kinds": {
+      "booking_confirmed": "Appointment booked for {{patient}} with Dr. {{doctor}} on {{date}} at {{time}}. Token {{token}}.",
+      "booking_rescheduled": "Appointment for {{patient}} moved to {{date}} at {{time}}. Token {{token}}.",
+      "booking_cancelled": "Appointment for {{patient}} with Dr. {{doctor}} on {{date}} was cancelled.",
+      "reminder": "Reminder: {{patient}} sees Dr. {{doctor}} today at {{time}}. Token {{token}}.",
+      "running_late": "Dr. {{doctor}} is running about {{delay}} minutes late. Check the live queue for your new time.",
+      "you_are_next": "{{patient}} is next for Dr. {{doctor}}. Please be ready near the room.",
+      "called_in": "It's {{patient}}'s turn. Please go to Room {{room}}.",
+      "checked_in": "{{patient}} is checked in for Dr. {{doctor}}. Token {{token}}.",
+      "consultation_done": "Consultation with Dr. {{doctor}} is complete. Get well soon.",
+      "follow_up": "Follow-up booked for {{patient}} with Dr. {{doctor}} on {{date}} at {{time}}.",
+      "care_plan_ready": "Your care plan from Dr. {{doctor}} is ready: medicines, advice and follow-up.",
+      "care_check_in": "Day {{day}} check-in: how are you feeling? Tap to reply.",
+      "doctor_reply": "Dr. {{doctor}} replied to your question."
+    }
+  },
+  "profile": {
+    "title": "Profile",
+    "me": "My details",
+    "edit": "Edit details",
+    "age": "Age",
+    "ageValue": "{{count}} years",
+    "phone": "Mobile number",
+    "address": "Address",
+    "abha": "ABHA number",
+    "abhaNone": "Not added",
+    "abhaLinked": "added",
+    "conditions": "Long-term conditions",
+    "none": "None",
+    "language": "Preferred language",
+    "consentGiven": "Consent given on {{date}} (version {{version}})",
+    "family": "Family members",
+    "familyHint": "Book appointments for people in your household.",
+    "addMember": "Add family member",
+    "editMember": "Edit family member",
+    "memberAdded": "Family member added",
+    "noFamily": "No family members added yet."
+  },
+  "form": {
+    "name": "Full name",
+    "age": "Age (years)",
+    "phone": "Mobile number",
+    "gender": "Gender",
+    "relation": "Relationship to you",
+    "addressTitle": "Address",
+    "line1": "House number and street",
+    "area": "Area",
+    "city": "City",
+    "pincode": "PIN code",
+    "abha": "ABHA number (optional)",
+    "abhaHint": "14 digits, for example 91-2345-6789-0123. It keeps your health records in one place.",
+    "conditions": "Long-term conditions (optional)",
+    "conditionsHint": "For example: diabetes, high blood pressure. Separate with commas.",
+    "language": "Preferred language",
+    "save": "Save"
+  },
+  "register": {
+    "title": "Create your profile",
+    "subtitle": "We need a few details before you book.",
+    "steps": {
+      "details": "Your details",
+      "consent": "Consent"
+    },
+    "next": "Continue to consent",
+    "saved": "Profile created"
+  },
+  "consent": {
+    "title": "Your consent",
+    "intro": "Before we save your details, please read how we use them.",
+    "points": {
+      "collect": "We collect your name, age, gender, mobile number, address, optional ABHA number, and the symptoms you share with the assistant.",
+      "purpose": "We use them only to book and manage your hospital visits, guide you to the right department, and share your reported symptoms with your doctor.",
+      "share": "Your details are shared only with hospital staff involved in your care. We never sell your data.",
+      "retention": "We keep your records for as long as needed for your care and as required by law.",
+      "rights": "You can view and correct your details in your profile, withdraw your consent, or ask us to delete your data by contacting the hospital."
+    },
+    "law": "This consent is requested under India's Digital Personal Data Protection Act, 2023.",
+    "dataProcessing": "I agree to MediFlow storing and using my details as described above.",
+    "notifications": "Send me appointment and queue updates by SMS and WhatsApp (optional).",
+    "back": "Back to details",
+    "agree": "Agree and create profile"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "appearance": "Appearance",
+    "travel": "Travel time to the hospital",
+    "travelHint": "We use this to tell you when to leave home.",
+    "travelDefault": "Hospital default ({{count}} min)",
+    "notifications": "Notifications",
+    "bookingUpdates": "Booking updates",
+    "queueAlerts": "Queue alerts",
+    "reminders": "Appointment reminders",
+    "sms": "SMS",
+    "whatsapp": "WhatsApp",
+    "account": "Account",
+    "signedInAs": "Signed in with {{phone}}",
+    "signOut": "Sign out"
+  },
+  "records": {
+    "title": "Health records",
+    "subtitle": "Upload old prescriptions, lab reports and discharge summaries. Your doctor sees a short summary before your visit.",
+    "paused": "Reading documents is switched off right now",
+    "pausedBody": "Please bring your old reports with you to the visit.",
+    "saved": "Document saved and shared with your doctor",
+    "deleted": "Document deleted",
+    "upload": {
+      "title": "Add a document",
+      "camera": "Take a photo",
+      "files": "Choose files",
+      "hint": "Photos (JPG, PNG) or PDF. You can choose more than one. The preview stays on this device.",
+      "samples": "No document at hand? Try a sample",
+      "queue": "Document {{done}} of {{total}}"
+    },
+    "processing": {
+      "title": "Reading your document",
+      "reading": "Reading document…",
+      "medicines": "Extracting medicines…",
+      "tests": "Extracting test values…",
+      "failed": "We couldn't read this document",
+      "skip": "Skip this document",
+      "pdf": "PDF document"
+    },
+    "review": {
+      "title": "Check what we read",
+      "body": "Correct anything that is wrong before saving. Fields marked \"Please check\" were hard to read.",
+      "aiLabel": "Read by the medical records assistant from your document. It may make mistakes.",
+      "kind": "Document type",
+      "date": "Date",
+      "doctor": "Doctor",
+      "hospital": "Hospital or clinic",
+      "medicines": "Medicines",
+      "medicine": "Medicine",
+      "dose": "Dose",
+      "frequency": "How often",
+      "addMedicine": "Add medicine",
+      "tests": "Test values",
+      "test": "Test",
+      "value": "Value",
+      "unit": "Unit",
+      "range": "Normal range",
+      "addTest": "Add test value",
+      "diagnoses": "Conditions mentioned",
+      "diagnosis": "Condition",
+      "addDiagnosis": "Add condition",
+      "remove": "Remove",
+      "confidence": "{{value}}% sure",
+      "check": "Please check",
+      "high": "Above normal range",
+      "low": "Below normal range",
+      "none": "None found",
+      "save": "Looks right, save",
+      "discard": "Discard",
+      "discardTitle": "Discard this document?",
+      "discardBody": "What we read from it will not be saved."
+    },
+    "list": {
+      "title": "Your documents",
+      "sharedNote": "Your doctor sees these in your pre-visit summary.",
+      "empty": "No documents yet",
+      "emptyBody": "Upload a prescription or lab report to share it with your doctor.",
+      "pending": "Waiting for your check",
+      "continue": "Check now",
+      "view": "View",
+      "delete": "Delete",
+      "deleteTitle": "Delete this document?",
+      "deleteBody": "Your doctor will no longer see it.",
+      "medicines_one": "1 medicine",
+      "medicines_other": "{{count}} medicines",
+      "tests_one": "1 test value",
+      "tests_other": "{{count}} test values"
+    },
+    "how": {
+      "title": "How it works",
+      "upload": "Take a photo of a prescription or report, or choose files.",
+      "read": "The assistant reads the medicines, test values and dates.",
+      "check": "You check it and correct anything that is wrong.",
+      "share": "Your doctor sees a short summary before your visit."
+    },
+    "view": {
+      "imageAlt": "Photo of {{name}}"
+    }
+  },
+  "care": {
+    "title": "Care plans",
+    "subtitle": "Your medicines, your doctor's advice and follow-up, after each visit.",
+    "paused": "The care companion is switched off right now",
+    "pausedBody": "Your doctor's note is in your appointment details. Call the hospital with any questions.",
+    "empty": "No care plans yet",
+    "emptyBody": "After your doctor signs your prescription, your care plan appears here.",
+    "medicines_one": "1 medicine",
+    "medicines_other": "{{count}} medicines",
+    "followUpOn": "follow-up {{date}}",
+    "planTitle": "Your care plan",
+    "fromDoctor": "From {{doctor}}, {{date}}",
+    "listen": "Listen",
+    "stopListening": "Stop",
+    "backToPlan": "Back to my care plan",
+    "slot": {
+      "morning": "Morning",
+      "afternoon": "Afternoon",
+      "night": "Night"
+    },
+    "food": {
+      "before": "Before food",
+      "after": "After food",
+      "any": "With or without food"
+    },
+    "checklist": {
+      "title": "Today's medicines",
+      "progress": "{{done}} of {{total}} taken",
+      "taken": "Taken",
+      "notYet": "Not yet",
+      "none": "No medicines today.",
+      "marked": "Marked as taken",
+      "unmarked": "Marked as not taken"
+    },
+    "plan": {
+      "medicines": "Medicine schedule",
+      "medicine": "Medicine",
+      "when": "When",
+      "food": "Food",
+      "until": "Until",
+      "untilValue_one": "{{date}} (1 day)",
+      "untilValue_other": "{{date}} ({{count}} days)",
+      "advice": "Advice from {{doctor}}",
+      "doctorsWords": "as your doctor wrote it",
+      "tests": "Tests to do",
+      "followUp": "Follow-up visit",
+      "noFollowUp": "Not set",
+      "book": "Book follow-up"
+    },
+    "checkIn": {
+      "title": "Follow-up check-ins",
+      "body": "The companion asks how you are on day 3 and day 7. For a demo, you can send the day 3 check-in now.",
+      "none": "No check-ins yet.",
+      "count_one": "1 check-in so far",
+      "count_other": "{{count}} check-ins so far",
+      "simulate": "Simulate day {{day}}",
+      "sent": "Check-in sent"
+    },
+    "chat": {
+      "title": "Ask about your care plan",
+      "scope": "Answers come only from {{doctor}}'s prescription and advice. Anything else goes to your doctor.",
+      "placeholder": "Ask a question",
+      "fromDoctor": "Reply from your doctor",
+      "checkIn": "Check-in",
+      "sentToDoctor": "Sent to your doctor",
+      "usedPlan": "From your care plan: {{parts}}",
+      "suggestions": {
+        "missed": "I missed my night tablet",
+        "food": "Can I take it after food?",
+        "nextVisit": "When is my next visit?"
+      },
+      "checkInReplies": {
+        "better": "I'm feeling better",
+        "same": "About the same",
+        "breathless": "I feel breathless"
+      }
+    },
+    "urgent": {
+      "title": "Please get checked today",
+      "emergencyTitle": "Get emergency care now",
+      "call108": "Call 108",
+      "callHospital": "Call hospital Emergency"
+    },
+    "speech": {
+      "intro": "Your care plan from {{doctor}}",
+      "slot": "{{slot}}: {{medicines}}",
+      "followUp": "Follow-up visit on {{date}}"
+    }
+  }
+}

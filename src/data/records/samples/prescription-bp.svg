@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="820" viewBox="0 0 600 820" role="img" aria-label="Sample prescription">
+  <defs>
+    <filter id="paper"><feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" result="n"/><feColorMatrix type="saturate" values="0"/><feBlend in="SourceGraphic" in2="n" mode="multiply"/></filter>
+  </defs>
+  <rect width="600" height="820" fill="#d9d4c7"/>
+  <g transform="rotate(-1.2 300 410)">
+    <rect x="28" y="22" width="544" height="776" fill="#fbf8ef" filter="url(#paper)"/>
+    <rect x="28" y="22" width="544" height="96" fill="#e8f1f0"/>
+    <text x="300" y="62" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="bold" fill="#1f4e5a">SRI VINAYAGA CLINIC</text>
+    <text x="300" y="86" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#335">Dr. R. GANESAN, MBBS, MD (General Medicine) · Reg. TNMC 55120</text>
+    <text x="300" y="106" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#556">22, Avinashi Road, Peelamedu, Coimbatore 641004 · Ph 0422 255 1234</text>
+    <line x1="48" y1="130" x2="552" y2="130" stroke="#1f4e5a" stroke-width="1.5"/>
+    <text x="52" y="160" font-family="Arial, sans-serif" font-size="14" fill="#333">Name: <tspan font-family="'Segoe Script', 'Brush Script MT', cursive" font-size="19" fill="#1b2a6b">Lakshmi M.</tspan></text>
+    <text x="330" y="160" font-family="Arial, sans-serif" font-size="14" fill="#333">Age/Sex: <tspan font-family="'Segoe Script', cursive" font-size="18" fill="#1b2a6b">51 / F</tspan></text>
+    <text x="52" y="190" font-family="Arial, sans-serif" font-size="14" fill="#333">Date: <tspan font-family="'Segoe Script', cursive" font-size="18" fill="#1b2a6b">18/11/2025</tspan></text>
+    <text x="330" y="190" font-family="Arial, sans-serif" font-size="14" fill="#333">BP: <tspan font-family="'Segoe Script', cursive" font-size="18" fill="#1b2a6b">156/96</tspan></text>
+    <text x="52" y="236" font-family="'Segoe Script', cursive" font-size="20" fill="#1b2a6b">c/o headache, giddiness on and off</text>
+    <text x="52" y="268" font-family="'Segoe Script', cursive" font-size="20" fill="#1b2a6b">Dx: Hypertension</text>
+    <text x="52" y="330" font-family="Georgia, serif" font-size="44" font-style="italic" fill="#1f4e5a">Rx</text>
+    <text x="88" y="384" font-family="'Segoe Script', cursive" font-size="22" fill="#1b2a6b">1. Tab. Amlodipine 5 mg</text>
+    <text x="128" y="414" font-family="'Segoe Script', cursive" font-size="19" fill="#1b2a6b">1 - 0 - 0   after food  × 3 months</text>
+    <text x="88" y="470" font-family="'Segoe Script', cursive" font-size="22" fill="#1b2a6b" opacity="0.72">2. Tab. Pan<tspan opacity="0.5">topr</tspan>azole 40</text>
+    <text x="128" y="500" font-family="'Segoe Script', cursive" font-size="19" fill="#1b2a6b" opacity="0.72">1 - 0 - 0   before food  × 1 month</text>
+    <ellipse cx="250" cy="468" rx="70" ry="16" fill="#8a7a55" opacity="0.18"/>
+    <text x="52" y="566" font-family="'Segoe Script', cursive" font-size="19" fill="#1b2a6b">Advice: low salt diet, walk daily</text>
+    <text x="52" y="598" font-family="'Segoe Script', cursive" font-size="19" fill="#1b2a6b">Review after 3 months with BP chart</text>
+    <text x="400" y="700" font-family="'Segoe Script', cursive" font-size="24" fill="#1b2a6b">R. Ganesan</text>
+    <line x1="380" y1="712" x2="540" y2="712" stroke="#555" stroke-width="1"/>
+    <text x="460" y="732" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#555">Signature</text>
+    <circle cx="150" cy="700" r="42" fill="none" stroke="#6b3fa0" stroke-width="2" opacity="0.45"/>
+    <text x="150" y="704" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#6b3fa0" opacity="0.6">SRI VINAYAGA</text>
+  </g>
+</svg>

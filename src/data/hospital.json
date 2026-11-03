@@ -1,0 +1,121 @@
+{
+  "id": "hosp_siruvani",
+  "name": {
+    "en": "Siruvani Multispeciality Hospital",
+    "ta": "சிறுவாணி பல்நோக்கு மருத்துவமனை"
+  },
+  "tagline": {
+    "en": "120-bed multispeciality hospital, Coimbatore",
+    "ta": "120 படுக்கைகள் கொண்ட பல்நோக்கு மருத்துவமனை, கோயம்புத்தூர்"
+  },
+  "address": {
+    "line1": "48, Avinashi Road",
+    "area": "Peelamedu",
+    "city": "Coimbatore",
+    "state": "Tamil Nadu",
+    "pincode": "641004"
+  },
+  "email": "opd@siruvani.example",
+  "phones": {
+    "main": "+91 422 000 0000",
+    "emergency": "+91 422 000 0111",
+    "ambulance": "108"
+  },
+  "opdHours": {
+    "mon": [
+      {
+        "start": "08:30",
+        "end": "20:00"
+      }
+    ],
+    "tue": [
+      {
+        "start": "08:30",
+        "end": "20:00"
+      }
+    ],
+    "wed": [
+      {
+        "start": "08:30",
+        "end": "20:00"
+      }
+    ],
+    "thu": [
+      {
+        "start": "08:30",
+        "end": "20:00"
+      }
+    ],
+    "fri": [
+      {
+        "start": "08:30",
+        "end": "20:00"
+      }
+    ],
+    "sat": [
+      {
+        "start": "08:30",
+        "end": "20:00"
+      }
+    ],
+    "sun": [
+      {
+        "start": "08:30",
+        "end": "13:30"
+      }
+    ]
+  },
+  "holidays": [
+    {
+      "date": "2026-12-25",
+      "name": {
+        "en": "Christmas",
+        "ta": "கிறிஸ்துமஸ்"
+      }
+    },
+    {
+      "date": "2027-01-01",
+      "name": {
+        "en": "New Year's Day",
+        "ta": "ஆங்கிலப் புத்தாண்டு"
+      }
+    },
+    {
+      "date": "2027-01-15",
+      "name": {
+        "en": "Thai Pongal",
+        "ta": "தைப் பொங்கல்"
+      }
+    },
+    {
+      "date": "2027-01-26",
+      "name": {
+        "en": "Republic Day",
+        "ta": "குடியரசு தினம்"
+      }
+    }
+  ],
+  "emergency": {
+    "location": {
+      "en": "Emergency & Trauma, Gate 2 (Avinashi Road side), ground floor",
+      "ta": "அவசர சிகிச்சைப் பிரிவு, வாயில் 2 (அவிநாசி சாலை பக்கம்), தரை தளம்"
+    },
+    "directions": {
+      "en": "Enter through Gate 2 and follow the red line on the floor. Open 24 hours, every day.",
+      "ta": "வாயில் 2 வழியாக நுழைந்து தரையில் உள்ள சிவப்புக் கோட்டைப் பின்பற்றவும். தினமும் 24 மணி நேரமும் திறந்திருக்கும்."
+    }
+  },
+  "booking": {
+    "maxDaysAhead": 14,
+    "leadMins": 30,
+    "changeCutoffMins": 60
+  },
+  "travel": {
+    "defaultMins": 30,
+    "bufferMins": 10
+  },
+  "kiosk": {
+    "idleSeconds": 60
+  },
+  "consentVersion": "2026-10"
+}

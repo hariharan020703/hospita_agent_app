@@ -1,0 +1,16 @@
+[
+  {"id":"ntf_01","userId":"usr_pat01","kind":"running_late","appointmentId":"apt_kamala_today","day":0,"at":"09:20","read":false,"params":{"doctor":"Meena Sundaram","delay":15}},
+  {"id":"ntf_02","userId":"usr_pat01","kind":"reminder","appointmentId":"apt_kamala_today","day":0,"at":"07:00","read":false,"params":{"patient":"Kamala Ramasamy","doctor":"Meena Sundaram","time":"11:00","token":"CAR-015"}},
+  {"id":"ntf_03","userId":"usr_pat01","kind":"booking_confirmed","appointmentId":"apt_kamala_today","day":-1,"at":"18:40","read":true,"params":{"patient":"Kamala Ramasamy","doctor":"Meena Sundaram","date":"@day:0","time":"11:00","token":"CAR-015"}},
+  {"id":"ntf_04","userId":"usr_pat01","kind":"booking_confirmed","appointmentId":"apt_chinnammal","day":-2,"at":"20:15","read":true,"params":{"patient":"Chinnammal Palanisamy","doctor":"Karthikeyan V","date":"@day:3","time":"10:30","token":"ORT-002"}},
+  {"id":"ntf_05","userId":"usr_pat01","kind":"consultation_done","appointmentId":"apt_kamala_past","day":-12,"at":"10:41","read":true,"params":{"patient":"Kamala Ramasamy","doctor":"Arun Prakash"}},
+  {"id":"ntf_06","userId":"usr_pat02","kind":"booking_confirmed","appointmentId":"apt_rajesh","day":-1,"at":"21:05","read":false,"params":{"patient":"Rajesh Kannan","doctor":"Ganesh Babu","date":"@day:1","time":"10:00","token":"ENT-001"}},
+  {"id":"ntf_07","userId":"usr_pat01","kind":"care_plan_ready","appointmentId":"apt_kamala_past","day":-12,"at":"10:42","read":true,"params":{"doctor":"Arun Prakash","planId":"care_kamala"}},
+  {"id":"ntf_08","userId":"usr_pat01","kind":"doctor_reply","day":-10,"at":"10:05","read":true,"params":{"doctor":"Arun Prakash","planId":"care_kamala"}},
+  {"id":"ntf_09","userId":"usr_pat01","kind":"care_check_in","day":-9,"at":"09:00","read":true,"params":{"day":3,"planId":"care_kamala"}},
+  {"id":"ntf_10","userId":"usr_pat02","kind":"care_plan_ready","appointmentId":"apt_rajesh_past","day":-20,"at":"12:12","read":true,"params":{"doctor":"Ganesh Babu","planId":"care_rajesh"}},
+  {"id":"ntf_11","userId":"usr_pat02","kind":"doctor_reply","day":-18,"at":"13:20","read":true,"params":{"doctor":"Ganesh Babu","planId":"care_rajesh"}},
+  {"id":"ntf_12","userId":"usr_pat03","kind":"care_plan_ready","appointmentId":"apt_lakshmi_past","day":-45,"at":"11:22","read":true,"params":{"doctor":"Arun Prakash","planId":"care_lakshmi_fever"}},
+  {"id":"ntf_13","userId":"usr_pat03","kind":"booking_confirmed","appointmentId":"apt_0598","day":-1,"at":"20:12","read":true,"params":{"patient":"Lakshmi Murugan","doctor":"Meena Sundaram","date":"@day:0","time":"09:15","token":"CAR-003"}},
+  {"id":"ntf_14","userId":"usr_pat03","kind":"called_in","appointmentId":"apt_0598","day":0,"at":"09:24","read":false,"params":{"patient":"Lakshmi Murugan","doctor":"Meena Sundaram","room":"A-112"}}
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "id": "missed_dose",
+    "terms": {
+      "en": ["missed", "forgot", "forget", "skipped", "didn't take", "did not take"],
+      "ta": ["மறந்து", "மறந்துட்ட", "மறந்துவிட்ட", "எடுக்கல", "எடுக்கவில்லை", "சாப்பிடல", "சாப்பிடவில்லை"],
+      "tanglish": ["marandhuten", "maranthuten", "maranduten", "marandhutten", "marandhu", "miss aayiduchu", "miss panniten", "edukala", "sapdala", "saapdala"]
+    }
+  },
+  {
+    "id": "food",
+    "terms": {
+      "en": ["after food", "before food", "with food", "empty stomach", "after eating", "before eating", "after meals", "before meals"],
+      "ta": ["சாப்பாட்டுக்கு", "சாப்பிட்ட பிறகு", "சாப்பிடும் முன்", "வெறும் வயிற்றில்", "சாப்பாட்டுக்கு முன்", "சாப்பாட்டுக்கு அப்புறம்"],
+      "tanglish": ["saapadu", "sapadu", "saapatuku", "saapaatuku", "sapta apram", "saaptu", "verum vayitula"]
+    }
+  },
+  {
+    "id": "duration",
+    "terms": {
+      "en": ["how many days", "how long should", "stop taking", "until when", "when can i stop"],
+      "ta": ["எத்தனை நாள்", "எவ்வளவு நாள்", "நிறுத்த"],
+      "tanglish": ["evlo naal", "ethana naal", "niruthalama", "eppo niruthanum"]
+    }
+  },
+  {
+    "id": "follow_up",
+    "terms": {
+      "en": ["next visit", "follow up", "follow-up", "review", "come back", "next appointment"],
+      "ta": ["அடுத்த முறை", "அடுத்த வருகை", "மீண்டும் வர", "திரும்ப வர", "மறு பரிசோதனை"],
+      "tanglish": ["thirumba varanum", "next visit", "review eppo"]
+    }
+  },
+  {
+    "id": "tests",
+    "terms": {
+      "en": ["test", "scan", "ecg", "tmt", "blood test", "x-ray", "xray"],
+      "ta": ["பரிசோதனை", "டெஸ்ட்", "ஸ்கேன்"],
+      "tanglish": ["test", "scan", "ecg"]
+    }
+  },
+  {
+    "id": "timing",
+    "terms": {
+      "en": ["when should i take", "what time", "which time", "when do i take", "schedule", "which tablet"],
+      "ta": ["எப்போது", "எந்த நேரம்", "எப்ப"],
+      "tanglish": ["eppo", "enna time", "endha time"]
+    }
+  },
+  {
+    "id": "diet",
+    "terms": {
+      "en": ["diet", "eat", "salt", "oil", "oily", "sugar", "coffee", "tea", "what can i eat", "fluids", "water"],
+      "ta": ["உணவு", "உப்பு", "எண்ணெய்", "காபி", "டீ", "தண்ணீர்"],
+      "tanglish": ["enna saapdalam", "uppu", "ennai", "coffee", "thanni"]
+    }
+  },
+  {
+    "id": "activity",
+    "terms": {
+      "en": ["walk", "walking", "exercise", "work", "climb", "gym", "rest", "sleep"],
+      "ta": ["நடை", "நடக்க", "உடற்பயிற்சி", "வேலை", "ஓய்வு", "தூக்கம்"],
+      "tanglish": ["nadakalama", "nadakanum", "exercise", "velai"]
+    }
+  },
+  {
+    "id": "side_effect",
+    "terms": {
+      "en": ["side effect", "reaction", "rash", "itching", "swelling", "dizzy", "giddy", "headache", "nausea"],
+      "ta": ["பக்க விளைவு", "அரிப்பு", "வீக்கம்", "தலைசுற்ற", "குமட்டல்"],
+      "tanglish": ["side effect", "arippu", "thala suthuthu"]
+    }
+  }
+]

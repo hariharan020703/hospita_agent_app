@@ -1,0 +1,17 @@
+[
+  {"doctorId":"doc_01","day":0,"status":"running_late","delayMins":15},
+  {"doctorId":"doc_02","day":0,"status":"available","delayMins":0},
+  {"doctorId":"doc_03","day":0,"status":"available","delayMins":0},
+  {"doctorId":"doc_04","day":0,"status":"available","delayMins":0},
+  {"doctorId":"doc_05","day":0,"status":"available","delayMins":0},
+  {"doctorId":"doc_06","day":0,"status":"available","delayMins":0},
+  {"doctorId":"doc_07","day":0,"status":"available","delayMins":0},
+  {"doctorId":"doc_08","day":0,"status":"available","delayMins":0},
+  {"doctorId":"doc_09","day":0,"status":"available","delayMins":0},
+  {"doctorId":"doc_10","day":0,"status":"on_break","delayMins":0,"breakUntil":"09:45"},
+  {"doctorId":"doc_11","day":0,"status":"available","delayMins":0},
+  {"doctorId":"doc_12","day":0,"status":"available","delayMins":0},
+  {"doctorId":"doc_13","day":0,"status":"available","delayMins":0},
+  {"doctorId":"doc_14","day":0,"status":"available","delayMins":0},
+  {"doctorId":"doc_15","day":0,"status":"available","delayMins":0}
+]

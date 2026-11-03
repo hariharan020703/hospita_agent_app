@@ -1,0 +1,139 @@
+[
+  {
+    "id": "scr_lakshmi_cardiology",
+    "title": "Cardiology: chest heaviness on walking (Tamil and English)",
+    "match": {"patientIds": ["pat_196"]},
+    "lines": [
+      {"speaker": "doctor", "text": "வணக்கம் லட்சுமி அம்மா. சொல்லுங்க, என்ன பிரச்சினை?", "ms": 2200},
+      {"speaker": "patient", "text": "டாக்டர், மூணு நாளா நெஞ்சு கனமா இருக்கு. நடந்தா மூச்சு வாங்குது.", "ms": 3200},
+      {"speaker": "doctor", "text": "Rest-ல இருக்கும்போதும் வருதா, இல்ல நடக்கும்போது மட்டுமா?", "ms": 2600},
+      {"speaker": "patient", "text": "நடக்கும்போது, படி ஏறும்போது மட்டும் தான். உட்கார்ந்தா பத்து நிமிஷத்துல சரியாயிடும்.", "ms": 3400},
+      {"speaker": "doctor", "text": "BP tablet ஒழுங்கா சாப்பிடறீங்களா?", "ms": 1800},
+      {"speaker": "patient", "text": "Amlodipine காலையில சாப்பிடறேன் டாக்டர். சில நாள் மறந்துடுவேன்.", "ms": 2800},
+      {"speaker": "doctor", "text": "Sugar, cholesterol test பண்ணீங்களா?", "ms": 1800},
+      {"speaker": "patient", "text": "போன மாசம் lab-ல எடுத்தேன். Report-ஐ app-ல upload பண்ணிருக்கேன்.", "ms": 2800},
+      {"speaker": "doctor", "text": "பார்த்தேன். Total cholesterol 238, LDL 162. கொஞ்சம் அதிகம் தான்.", "ms": 3000},
+      {"speaker": "doctor", "text": "BP 150 by 94. Pulse 88, regular. Heart sounds normal, chest clear.", "ms": 3000},
+      {"speaker": "doctor", "text": "Exertional chest discomfort, angina இருக்கான்னு rule out பண்ணணும். BP control-ல இல்ல, cholesterol அதிகம்.", "ms": 3600},
+      {"speaker": "doctor", "text": "இன்னைக்கு ECG எடுங்க, அப்புறம் TMT test. Six weeks கழிச்சு fasting lipid profile திரும்ப பாருங்க.", "ms": 3600},
+      {"speaker": "doctor", "text": "Amlodipine 5 mg காலையில after food continue பண்ணுங்க. Ecosprin 75 mg மதியம் சாப்பாட்டுக்கு அப்புறம். Atorvastatin 10 mg night, after food. Thirty days.", "ms": 4600},
+      {"speaker": "patient", "text": "Night tablet மறந்துட்டா என்ன பண்றது டாக்டர்?", "ms": 2200},
+      {"speaker": "doctor", "text": "மறந்துட்டா அடுத்த நாள் ரெண்டு tablet சேர்த்து போடாதீங்க. Skip பண்ணிட்டு வழக்கம் போல அடுத்த dose எடுங்க.", "ms": 3600},
+      {"speaker": "doctor", "text": "தினமும் முப்பது நிமிஷம் மெதுவா நடங்க. உப்பு, எண்ணெய் குறைங்க.", "ms": 2800},
+      {"speaker": "doctor", "text": "நெஞ்சு வலி பத்து நிமிஷத்துக்கு மேல இருந்தா, இல்ல வியர்வை, மூச்சுத் திணறல் வந்தா உடனே 108 கூப்பிடுங்க.", "ms": 3600},
+      {"speaker": "doctor", "text": "Two weeks கழிச்சு reports-ஓட வாங்க.", "ms": 2000},
+      {"speaker": "patient", "text": "சரி டாக்டர், ரொம்ப நன்றி.", "ms": 1600}
+    ],
+    "draft": {
+      "fields": {
+        "chiefComplaint": {"value": "Chest heaviness on exertion for 3 days, with breathlessness on walking.", "line": 1},
+        "history": {"value": "Comes on with walking and climbing stairs; settles within 10 minutes of rest. Known hypertensive on Amlodipine 5 mg, misses doses at times. Lipid profile last month (uploaded): total cholesterol 238, LDL 162 mg/dL.", "line": 8},
+        "examination": {"value": "BP 150/94 mmHg. Pulse 88/min, regular. Heart sounds normal. Chest clear.", "line": 9},
+        "assessment": {"value": "\"Exertional chest discomfort, rule out angina. BP not controlled. Cholesterol high.\"", "line": 10},
+        "investigations": {"value": "ECG today\nTreadmill test (TMT)\nFasting lipid profile after 6 weeks", "line": 11},
+        "advice": {"value": "If you miss a dose, skip it and take the next dose at the usual time. Do not take two doses together.\nWalk for 30 minutes every day at an easy pace.\nReduce salt and oily food.\nIf chest pain lasts more than 10 minutes, or comes with sweating or breathlessness, call 108 at once.", "line": 16}
+      },
+      "followUpDays": {"value": 14, "line": 17},
+      "prescription": [
+        {"medicine": "Amlodipine", "dose": "5 mg", "slots": ["morning"], "food": "after", "days": 30, "line": 12},
+        {"medicine": "Ecosprin", "dose": "75 mg", "slots": ["afternoon"], "food": "after", "days": 30, "line": 12},
+        {"medicine": "Atorvastatin", "dose": "10 mg", "slots": ["night"], "food": "after", "days": 30, "line": 12}
+      ]
+    }
+  },
+  {
+    "id": "scr_cardiology_palpitations",
+    "title": "Cardiology: palpitations",
+    "match": {"departmentIds": ["cardiology"]},
+    "lines": [
+      {"speaker": "doctor", "text": "Good morning. Please sit. What brings you in today?", "ms": 2200},
+      {"speaker": "patient", "text": "Doctor, two weeks-ஆ heartbeat திடீர்னு fast-ஆ அடிக்குது. அஞ்சு பத்து நிமிஷம் இருக்கும்.", "ms": 3400},
+      {"speaker": "doctor", "text": "Any chest pain, fainting or breathlessness with it?", "ms": 2400},
+      {"speaker": "patient", "text": "இல்ல டாக்டர். கொஞ்சம் படபடப்பா இருக்கும், அவ்வளவு தான். Coffee நிறைய குடிப்பேன்.", "ms": 3200},
+      {"speaker": "doctor", "text": "BP 128 by 82. Pulse 96, regular. Heart sounds normal. Thyroid not enlarged.", "ms": 3000},
+      {"speaker": "doctor", "text": "Palpitations, possibly related to caffeine and stress. Need to rule out a thyroid or rhythm problem.", "ms": 3400},
+      {"speaker": "doctor", "text": "We'll do an ECG, a thyroid test, and a 24-hour Holter monitor.", "ms": 2800},
+      {"speaker": "doctor", "text": "Propranolol 10 mg, morning and night, after food, for two weeks.", "ms": 3000},
+      {"speaker": "doctor", "text": "Coffee, tea குறைங்க. ராத்திரி 7 to 8 hours தூங்குங்க. மயக்கம் வந்தா, heartbeat settle ஆகலைன்னா Emergency வாங்க.", "ms": 3800},
+      {"speaker": "doctor", "text": "Come back in ten days with the Holter report.", "ms": 2200}
+    ],
+    "draft": {
+      "fields": {
+        "chiefComplaint": {"value": "Palpitations on and off for 2 weeks, each lasting 5 to 10 minutes.", "line": 1},
+        "history": {"value": "No chest pain, fainting or breathlessness. High coffee intake.", "line": 3},
+        "examination": {"value": "BP 128/82 mmHg. Pulse 96/min, regular. Heart sounds normal. Thyroid not enlarged.", "line": 4},
+        "assessment": {"value": "\"Palpitations, possibly related to caffeine and stress. Rule out thyroid or rhythm problem.\"", "line": 5},
+        "investigations": {"value": "ECG\nThyroid test (TSH)\n24-hour Holter monitor", "line": 6},
+        "advice": {"value": "Avoid too much tea and coffee.\nSleep 7 to 8 hours every night.\nIf you feel faint or the heartbeat does not settle, come to Emergency.", "line": 8}
+      },
+      "followUpDays": {"value": 10, "line": 9},
+      "prescription": [
+        {"medicine": "Propranolol", "dose": "10 mg", "slots": ["morning", "night"], "food": "after", "days": 14, "line": 7}
+      ]
+    }
+  },
+  {
+    "id": "scr_general_fever",
+    "title": "General Medicine: fever with cough",
+    "match": {"departmentIds": ["general"]},
+    "lines": [
+      {"speaker": "doctor", "text": "வணக்கம். சொல்லுங்க, என்ன ஆச்சு?", "ms": 1800},
+      {"speaker": "patient", "text": "நாலு நாளா காய்ச்சல், இருமல். உடம்பு வலி அதிகமா இருக்கு.", "ms": 3000},
+      {"speaker": "doctor", "text": "Highest temperature எவ்வளவு? Rash, bleeding ஏதாவது?", "ms": 2400},
+      {"speaker": "patient", "text": "102 வரைக்கும் போச்சு. Rash இல்ல, bleeding இல்ல.", "ms": 2600},
+      {"speaker": "doctor", "text": "Temperature 100.4. Throat congested. Chest clear. BP 118 by 76.", "ms": 3000},
+      {"speaker": "doctor", "text": "Viral fever, rule out dengue.", "ms": 1800},
+      {"speaker": "doctor", "text": "CBC and dengue NS1 test எடுங்க.", "ms": 2200},
+      {"speaker": "doctor", "text": "Paracetamol 650 mg three times a day after food for three days. Cetirizine 10 mg night for five days.", "ms": 3600},
+      {"speaker": "doctor", "text": "நிறைய தண்ணீர் குடிங்க, மூணு லிட்டர். மூணு நாள் rest. 103-க்கு மேல காய்ச்சல், bleeding, rash வந்தா Emergency வாங்க.", "ms": 4000},
+      {"speaker": "doctor", "text": "Five days கழிச்சு reports-ஓட வாங்க.", "ms": 2000}
+    ],
+    "draft": {
+      "fields": {
+        "chiefComplaint": {"value": "Fever with cough and body pain for 4 days.", "line": 1},
+        "history": {"value": "Highest temperature 102°F. No rash, no bleeding.", "line": 3},
+        "examination": {"value": "Temperature 100.4°F. Throat congested. Chest clear. BP 118/76 mmHg.", "line": 4},
+        "assessment": {"value": "\"Viral fever, rule out dengue.\"", "line": 5},
+        "investigations": {"value": "Complete blood count (CBC)\nDengue NS1 test", "line": 6},
+        "advice": {"value": "Drink plenty of fluids, at least 3 litres a day.\nRest for 3 days.\nIf fever goes above 103°F, or you notice bleeding or a rash, come to Emergency.", "line": 8}
+      },
+      "followUpDays": {"value": 5, "line": 9},
+      "prescription": [
+        {"medicine": "Paracetamol", "dose": "650 mg", "slots": ["morning", "afternoon", "night"], "food": "after", "days": 3, "line": 7},
+        {"medicine": "Cetirizine", "dose": "10 mg", "slots": ["night"], "food": "any", "days": 5, "line": 7}
+      ]
+    }
+  },
+  {
+    "id": "scr_ortho_knee",
+    "title": "Orthopaedics: knee pain",
+    "match": {"departmentIds": ["orthopaedics"]},
+    "lines": [
+      {"speaker": "doctor", "text": "Come in. Which knee is troubling you?", "ms": 2000},
+      {"speaker": "patient", "text": "Right knee doctor. ரெண்டு மாசமா வலி. படி ஏறும்போது ரொம்ப வலிக்குது.", "ms": 3200},
+      {"speaker": "doctor", "text": "Any fall or injury? Swelling?", "ms": 1800},
+      {"speaker": "patient", "text": "விழல டாக்டர். சாயங்காலம் கொஞ்சம் வீக்கம் இருக்கும்.", "ms": 2600},
+      {"speaker": "doctor", "text": "Mild swelling right knee. Crepitus present. Movement full but painful at the end. No instability.", "ms": 3400},
+      {"speaker": "doctor", "text": "Looks like early osteoarthritis of the right knee.", "ms": 2400},
+      {"speaker": "doctor", "text": "Standing X-ray of the right knee எடுங்க.", "ms": 2200},
+      {"speaker": "doctor", "text": "Aceclofenac 100 mg morning and night after food for seven days. Calcium with vitamin D3 once in the afternoon for a month.", "ms": 4000},
+      {"speaker": "doctor", "text": "Squat பண்ணாதீங்க, சம்மணம் போட்டு உட்காராதீங்க. Exercises பத்து தடவை, ரெண்டு வேளை. ராத்திரி hot pack பத்து நிமிஷம்.", "ms": 4000},
+      {"speaker": "doctor", "text": "Three weeks கழிச்சு X-ray-ஓட வாங்க.", "ms": 2000}
+    ],
+    "draft": {
+      "fields": {
+        "chiefComplaint": {"value": "Right knee pain for 2 months, worse on climbing stairs.", "line": 1},
+        "history": {"value": "No fall or injury. Mild swelling in the evenings.", "line": 3},
+        "examination": {"value": "Mild swelling right knee. Crepitus present. Full range of movement, painful at the end. No instability.", "line": 4},
+        "assessment": {"value": "\"Early osteoarthritis of the right knee.\"", "line": 5},
+        "investigations": {"value": "X-ray of the right knee, standing", "line": 6},
+        "advice": {"value": "Avoid squatting and sitting cross-legged.\nDo the knee exercises shown to you, 10 times, twice a day.\nUse a hot pack on the knee for 10 minutes at night.", "line": 8}
+      },
+      "followUpDays": {"value": 21, "line": 9},
+      "prescription": [
+        {"medicine": "Aceclofenac", "dose": "100 mg", "slots": ["morning", "night"], "food": "after", "days": 7, "line": 7},
+        {"medicine": "Calcium + Vitamin D3", "dose": "1 tablet", "slots": ["afternoon"], "food": "after", "days": 30, "line": 7}
+      ]
+    }
+  }
+]

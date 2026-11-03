@@ -1,0 +1,6 @@
+[
+  {"id":"esc_01","channel":"kiosk","reason":"unclear_routing","phone":"9443012876","day":0,"at":"09:12","status":"open","summary":"ஒரு வாரமாக உடம்பு சரியில்லை, என்ன பிரச்சினை என்று தெரியவில்லை"},
+  {"id":"esc_02","channel":"app","reason":"asked_for_human","patientId":"pat_017","phone":"9914206732","day":0,"at":"09:24","status":"open","summary":"Can someone from the hospital call me? I want to ask about my mother's follow-up visit."},
+  {"id":"esc_03","channel":"app","reason":"safety_unclear","patientId":"pat_032","phone":"9888232629","day":0,"at":"09:05","status":"open","summary":"Stomach pain since morning, it comes and goes. Not sure if it is serious."},
+  {"id":"esc_04","channel":"kiosk","reason":"unclear_routing","phone":"9790045123","day":-1,"at":"16:40","status":"resolved","summary":"கால் வீக்கம், நடக்க சிரமம்","resolution":"Spoke to patient at the desk; booked with General Medicine.","resolvedBy":"usr_desk"}
+]

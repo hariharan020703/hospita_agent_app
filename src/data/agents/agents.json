@@ -1,0 +1,55 @@
+[
+  {
+    "id": "orchestrator",
+    "surfaces": ["patient", "kiosk"],
+    "workflow": ["input", "safety_in", "intent", "route", "safety_out", "output"],
+    "baseline": {"conversations": 38, "toolCalls": 112, "safetyStops": 3},
+    "metrics": {
+      "conversations": ["symptoms", "queue_status", "book", "reschedule", "cancel", "my_appointments", "human", "medicine_question", "emergency"],
+      "toolCalls": ["book", "queue_status", "reschedule", "cancel", "my_appointments", "care_plan_ready", "doctor_reply"],
+      "safetyStops": ["emergency", "medicine_question"]
+    }
+  },
+  {
+    "id": "triage",
+    "surfaces": ["patient", "kiosk"],
+    "workflow": ["input", "safety_in", "agent", "human", "output"],
+    "baseline": {"conversations": 27, "emergencies": 1, "handoffs": 2},
+    "metrics": {
+      "conversations": ["symptoms"],
+      "emergencies": ["emergency"],
+      "handoffs": ["human"]
+    }
+  },
+  {
+    "id": "records",
+    "surfaces": ["patient", "doctor"],
+    "workflow": ["input", "safety_in", "agent", "human", "output"],
+    "baseline": {"documents": 14, "summaries": 9},
+    "metrics": {
+      "documents": ["record_uploaded"],
+      "summaries": ["pre_visit_summary"]
+    }
+  },
+  {
+    "id": "scribe",
+    "surfaces": ["doctor"],
+    "workflow": ["input", "agent", "human", "output"],
+    "baseline": {"notesDrafted": 11, "notesSigned": 10},
+    "metrics": {
+      "notesDrafted": ["consultation_ended"],
+      "notesSigned": ["prescription_signed"]
+    }
+  },
+  {
+    "id": "care",
+    "surfaces": ["patient", "doctor"],
+    "workflow": ["input", "safety_in", "agent", "human", "output"],
+    "baseline": {"followUpsSent": 19, "questionsAnswered": 23, "alerts": 1},
+    "metrics": {
+      "followUpsSent": ["care_plan_ready", "check_in"],
+      "questionsAnswered": ["care_question"],
+      "alerts": ["check_in_reply_warning", "care_emergency"]
+    }
+  }
+]

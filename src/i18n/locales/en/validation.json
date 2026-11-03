@@ -1,0 +1,21 @@
+{
+  "required": "This field is required",
+  "invalid": "This value is not valid",
+  "number": "Enter a number",
+  "tooShort": "Enter at least {{count}} characters",
+  "tooLong": "Use {{count}} characters or fewer",
+  "min": "Must be at least {{count}}",
+  "max": "Must be {{count}} or less",
+  "selectOne": "Choose an option",
+  "selectMin": "Choose at least {{count}}",
+  "email": "Enter a valid email address",
+  "phone": "Enter a 10-digit mobile number",
+  "pincode": "Enter a 6-digit PIN code",
+  "abha": "An ABHA number has 14 digits",
+  "time": "Enter a time as HH:MM",
+  "date": "Enter a valid date",
+  "endAfterStart": "The end must be after the start",
+  "tokenPrefix": "Use 2 to 4 capital letters, for example CAR",
+  "consent": "Please agree to continue",
+  "otp": "Enter the 6-digit code"
+}

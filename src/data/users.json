@@ -1,0 +1,9 @@
+[
+  {"id":"usr_admin","role":"admin","name":"Priya Natarajan","title":"Hospital administrator","email":"admin@siruvani.example","active":true},
+  {"id":"usr_desk","role":"desk","name":"Karthik Selvaraj","title":"Front desk, main reception","email":"desk@siruvani.example","active":true},
+  {"id":"usr_doc01","role":"doctor","name":"Meena Sundaram","title":"Cardiology","email":"meena.sundaram@siruvani.example","doctorId":"doc_01","active":true},
+  {"id":"usr_doc08","role":"doctor","name":"Karthikeyan V","title":"Orthopaedics","email":"karthikeyan.v@siruvani.example","doctorId":"doc_08","active":true},
+  {"id":"usr_pat01","role":"patient","name":"Kamala Ramasamy","phone":"9876543210","patientId":"pat_001","active":true},
+  {"id":"usr_pat02","role":"patient","name":"Rajesh Kannan","phone":"9843012345","patientId":"pat_005","active":true},
+  {"id":"usr_pat03","role":"patient","name":"Lakshmi Murugan","phone":"9790012345","patientId":"pat_196","active":true}
+]

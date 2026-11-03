@@ -1,0 +1,167 @@
+{
+  "header": {
+    "kiosk": "Self-service kiosk",
+    "time": "Current time",
+    "startOver": "Start over",
+    "logout": "Log out"
+  },
+  "attract": {
+    "welcome": "Welcome",
+    "subtitle": "Get a token, check in for your appointment, or get help in an emergency",
+    "tap": "Tap to start"
+  },
+  "language": {
+    "title": "Choose your language",
+    "hint": "You can change the language at any time from the top of the screen."
+  },
+  "home": {
+    "title": "How can we help you today?",
+    "walkIn": "Speak your problem",
+    "walkInHint": "No appointment? Tell us what's wrong and get a token.",
+    "checkIn": "Scan booking QR",
+    "checkInHint": "Already booked? Check in for your appointment.",
+    "emergency": "Emergency",
+    "emergencyHint": "Need urgent help right now? Tap here."
+  },
+  "walkIn": {
+    "title": "Tell us what's wrong",
+    "hint": "Tap the microphone and speak, or type. Then answer a few short questions.",
+    "getToken": "Get a token",
+    "how": {
+      "title": "How it works",
+      "speak": "Tell us your problem in your own words.",
+      "questions": "Answer a few short questions.",
+      "details": "Enter the patient's name, age and mobile number.",
+      "token": "Get your token and go to the department."
+    },
+    "pickTitle": "Choose a department",
+    "pickHint": "Tap the department for your problem. You'll get a token next.",
+    "readyForToken": "{{department}} is the right department. Get your token to see a doctor today."
+  },
+  "escalated": {
+    "visitHelpDesk": "Please visit the help desk near the main entrance. They already have your message."
+  },
+  "noSlots": {
+    "title": "No doctors are free today in {{department}}",
+    "body": "Please see the front desk. We have told them you are coming, and they will help you.",
+    "where": "The front desk is near the main entrance.",
+    "summary": "Kiosk walk-in: no doctor free today in {{department}}. Patient: {{name}}. Said: {{said}}"
+  },
+  "details": {
+    "progress": "Step {{step}} of {{total}}",
+    "reviewStep": "Last step",
+    "tokenFor": "Token for {{department}}",
+    "next": "Next",
+    "working": "Getting your token…",
+    "failed": "We couldn't create your token. Please try again, or see the front desk.",
+    "addressLine": "Walk-in (kiosk)",
+    "name": {
+      "title": "What is the patient's name?",
+      "placeholder": "Full name",
+      "hint": "Use the keyboard on the screen. Type the name of the person who will see the doctor.",
+      "error": "Please type the patient's name (at least 2 letters)."
+    },
+    "age": {
+      "title": "How old is the patient?",
+      "unit": "years",
+      "value_one": "{{count}} year",
+      "value_other": "{{count}} years",
+      "hint": "Use the number keys. For a baby under 1 year, enter 0.",
+      "keypad": "Keypad for the age",
+      "error": "Please enter an age from 0 to 120."
+    },
+    "gender": {
+      "title": "What is the patient's gender?",
+      "error": "Please choose one."
+    },
+    "phone": {
+      "title": "What is your mobile number?",
+      "hint": "10 digits. The front desk can reach you on this number if needed.",
+      "keypad": "Keypad for the mobile number",
+      "error": "Please enter a 10-digit mobile number that starts with 6, 7, 8 or 9."
+    },
+    "review": {
+      "title": "Please check your details",
+      "name": "Name",
+      "age": "Age",
+      "gender": "Gender",
+      "phone": "Mobile number",
+      "change": "Change",
+      "changeField": "Change {{field}}",
+      "submit": "Get my token"
+    }
+  },
+  "keypad": {
+    "clear": "Clear all",
+    "backspace": "Delete the last character",
+    "empty": "Nothing entered yet"
+  },
+  "facts": {
+    "department": "Department",
+    "where": "Where",
+    "location": "{{wing}}, floor {{floor}}",
+    "doctor": "Doctor",
+    "room": "Room",
+    "expected": "Expected time",
+    "ahead": "Patients ahead of you",
+    "youAreNext": "You're next",
+    "patient": "Patient",
+    "when": "Appointment time"
+  },
+  "slip": {
+    "title": "Here is your token",
+    "qr": "QR code for booking {{ref}}",
+    "bookingRef": "Booking ID",
+    "qrHint": "Show this code at the front desk if you are asked.",
+    "where": "Please go to {{wing}}, floor {{floor}}, and wait near Room {{room}}. Your token will be called on the screen.",
+    "whereRoomOnly": "Please wait near Room {{room}}. Your token will be called on the screen.",
+    "print": "Print token",
+    "printHeading": "OPD walk-in token",
+    "issued": "Issued {{date}}, {{time}}",
+    "printFooter": "Please keep this slip until you have seen the doctor."
+  },
+  "checkIn": {
+    "title": "Check in for your appointment",
+    "scanHint": "Hold the QR code from your booking, on your phone or on paper, in front of the camera.",
+    "starting": "Starting the camera…",
+    "scanning": "Looking for your QR code…",
+    "denied": "We can't use the camera. Please type your booking ID instead.",
+    "noCamera": "No camera was found. Please type your booking ID instead.",
+    "cameraError": "The camera isn't working right now. Please type your booking ID instead.",
+    "notOurCode": "This QR code is not a MediFlow booking. Please show the QR code from your booking.",
+    "camera": "Camera view",
+    "typeInstead": "Type booking ID instead",
+    "scanInstead": "Scan QR code instead",
+    "manualTitle": "Type your booking ID",
+    "manualHint": "Your booking ID starts with MF and has 6 more letters or numbers. You will find it in your booking message.",
+    "keypad": "Keypad for the booking ID",
+    "find": "Find my booking",
+    "finding": "Finding your booking…",
+    "notFoundTitle": "Booking not found",
+    "notFound": "We couldn't find booking {{ref}}. Please check the ID and try again, or see the front desk.",
+    "tryAgain": "Try again",
+    "confirmTitle": "Is this your appointment?",
+    "bookingTitle": "Your booking",
+    "bookingRef": "Booking ID",
+    "checkInNow": "Check in",
+    "notMine": "This is not my booking",
+    "reason": {
+      "alreadyIn": "You're already checked in. Please wait near Room {{room}}.",
+      "completed": "This visit is already complete. If you need to see a doctor again, please see the front desk.",
+      "cancelled": "This booking was cancelled. If you still need to see a doctor, please see the front desk.",
+      "noShow": "This appointment was marked as missed. Please see the front desk.",
+      "future": "Your appointment is on {{date}} at {{time}}. Please come back on that day to check in.",
+      "past": "This booking was for {{date}}. Please see the front desk to book a new visit."
+    },
+    "successTitle": "You're checked in",
+    "successBody": "Please wait near Room {{room}} ({{wing}}, floor {{floor}}). Your token will be called on the screen.",
+    "successBodyRoomOnly": "Please wait near Room {{room}}. Your token will be called on the screen."
+  },
+  "idle": {
+    "title": "Are you still there?",
+    "body": "For your privacy, this screen will start over soon.",
+    "stillHere": "I'm still here",
+    "announce_one": "The screen will start over in {{count}} second. Tap \"I'm still here\" to continue.",
+    "announce_other": "The screen will start over in {{count}} seconds. Tap \"I'm still here\" to continue."
+  }
+}
