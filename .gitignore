@@ -8,4 +8,6 @@ blob-report
 *.local
 .env
 .DS_Store
-.env.*
+.env.example
+.env.e2e
+.env.development
